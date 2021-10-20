@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eaa0068b001cc4892fe607256ca9c3, type: 3}
+  m_Name: "\u039F\u03B4\u03BF\u03BD\u03C4\u03CC\u03B2\u03BF\u03C5\u03C1\u03C4\u03C3\u03B1"
+  m_EditorClassIdentifier: 
+  MainWord: "\u039F\u03B4\u03BF\u03BD\u03C4\u03CC\u03B2\u03BF\u03C5\u03C1\u03C4\u03C3\u03B1"
+  NoWord1: "\u0394\u03CC\u03BD\u03C4\u03B9\u03B1"
+  NoWord2: "\u03A0\u03BB\u03AD\u03BD\u03C9"
+  NoWord3: "\u039A\u03B1\u03B8\u03B1\u03C1\u03AF\u03B6\u03C9"
+  NoWord4: "\u03A0\u03C1\u03C9\u03AF"
+  NoWord5: "\u0391\u03BD\u03AC\u03C3\u03B1"
+  difficulty: 0

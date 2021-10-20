@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2524434316108736183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2524434316108736201}
+  - component: {fileID: 2524434316108736182}
+  m_Layer: 0
+  m_Name: Public Scripts MainGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2524434316108736201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2524434316108736183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 281.1887, y: 524.8372, z: -174.06616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2524434316108736182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2524434316108736183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e49d7a9fa74eb543be1c2db3ee2b3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cardstemp: {fileID: 11400000, guid: 2b74487c0ed2c004bbebcc7f13fe9021, type: 2}
+  MainWord: {fileID: 0}
+  NoWord1: {fileID: 0}
+  NoWord2: {fileID: 0}
+  NoWord3: {fileID: 0}
+  NoWord4: {fileID: 0}
+  NoWord5: {fileID: 0}
+  ScoreTxt: {fileID: 0}
+  TimerTxt: {fileID: 0}
+  BeforeRoundTxt: {fileID: 0}
+  TeamScore: {fileID: 0}
+  GameScore: {fileID: 0}
+  BeforeRound: {fileID: 0}
+  Card: {fileID: 0}
+  AfterRound: {fileID: 0}
+  PassObj: {fileID: 0}
+  EndOfTimeObj: {fileID: 0}
+  RandomFirstTeam: 0
+  Score: 0
+  Timer: 0
+  TimerPick: 10
+  PassToLose: 1
+  PassToLoseLeft: 0
+  PassToLosePick: 2
+  PreRoundBool: 0
+  RoundBool: 0
+  AfterRoundBool: 0
+  EndOfTimeBool: 0
+  CurrentScore: 0
+  CardDeck:
+  - {fileID: 11400000, guid: 2b74487c0ed2c004bbebcc7f13fe9021, type: 2}
+  - {fileID: 11400000, guid: 71f0cfa940e722242834a22753b0d257, type: 2}
+  - {fileID: 11400000, guid: 111ef802054802d49828c6f6f0a2861d, type: 2}
+  - {fileID: 11400000, guid: 242ac56a1a228464480da70229026e30, type: 2}
+  - {fileID: 11400000, guid: 5febc801db547fb4196bd7afd5464f6f, type: 2}
+  - {fileID: 11400000, guid: 60c9240644797574fa76399baf852501, type: 2}
+  Teams:
+  - gamaw 1
+  - 'gamaw 2 '
+  - gamaw 3
+  - gamaw 4
+  TeamsScore: 00000000000000000000000000000000
+  TeamsAct: 00000000
