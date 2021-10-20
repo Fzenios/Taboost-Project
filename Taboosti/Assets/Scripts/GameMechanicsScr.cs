@@ -14,6 +14,7 @@ public class GameMechanicsScr : MonoBehaviour
     public GameObject BeforeRound, Card, AfterRound, Finale;
     public GameObject PassObj, EndOfTimeObj;
     public GameObject NextRoundBtn, LastRoundBtn;
+    public GameObject PauseWindow, PreExitWindow;
     public int RandomFirstTeam;
     public int Score, WinnerTeams; 
     int TeamToBeActive;
@@ -34,6 +35,7 @@ public class GameMechanicsScr : MonoBehaviour
     public string Team1Name, Team2Name, Team3Name, Team4Name;
     public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
     int EasyCards, MediumCards, HardCards;
+    bool PauseGame;
 
     
     void Awake() 
@@ -177,6 +179,7 @@ public class GameMechanicsScr : MonoBehaviour
         {
             if(Timer > 0)
             {
+                if(!PauseGame)
                 Timer -= 1 * Time.deltaTime;
                 TimerTxt.text = Timer.ToString("0");
             }
@@ -288,6 +291,13 @@ public class GameMechanicsScr : MonoBehaviour
         PreRoundBool = false;
         RoundBool = true;
     }
+    public void PreExitGame()
+    {
+        if(!PreExitWindow.activeSelf)
+            PreExitWindow.SetActive(true);
+        else
+            PreExitWindow.SetActive(false);
+    }
     public void ExitGame()
     {
         PreRoundBool = false;
@@ -390,6 +400,14 @@ public class GameMechanicsScr : MonoBehaviour
             NoWord5.text = Cardstemp.NoWord5;
         else
             NoWord5.text = "";
+    }
+    public void PauseBtn()
+    {
+        PauseGame =! PauseGame;
+        if(PauseGame)
+            PauseWindow.SetActive(true);
+        else
+            PauseWindow.SetActive(false);
     }
     public void GoToEndOfGame()
     {        
