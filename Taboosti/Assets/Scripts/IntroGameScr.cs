@@ -12,13 +12,7 @@ public class IntroGameScr : MonoBehaviour
     public GameObject WrongColorBtn;
     public GameObject Input1, Input2, Input3, Input4;
     string Team1Name, Team2Name, Team3Name, Team4Name;
-    //public Toggle TC11, TC12, TC13, TC14, TC15, TC16, TC17, TC18;
-
-    //public Toggle TC21, TC22, TC23, TC24, TC25, TC26, TC27, TC28;
-    //public Toggle TC31, TC32, TC33, TC34, TC35, TC36, TC37, TC38;
-    //public Toggle TC41, TC42, TC43, TC44, TC45, TC46, TC47, TC48;
     public Toggle[] TogglesRed, TogglesPink, TogglesPurple, TogglesBlue, TogglesBlueLight, TogglesCyan, TogglesGreen, TogglesYellow;   
-    //public GameObject PlayerSlHandle, TimerSlHandle, PassSlHandle, WordsSlHandle, RoundsSlHandle;  
     public Text PlayerSlTxt, TimerSlTxt, PassSlTxt, WordsSlTxt, RoundsSlTxt;
     public Slider PlayerSlider, TimerSlider, PassSlider, WordsSlider, RoundsSlider;
     public Toggle EasyTog, MediumTog, HardTog;
@@ -227,7 +221,20 @@ public class IntroGameScr : MonoBehaviour
         GameMechanicsScr.TimerPick = TimerSlider.value;
         GameMechanicsScr.PassToLosePick = PassSlider.value; 
         GameMechanicsScr.WordsCount = WordsSlider.value;  
-        GameMechanicsScr.RoundsCount = RoundsSlider.value;     
+        GameMechanicsScr.RoundsCount = RoundsSlider.value;
+
+        if(EasyTog.isOn)
+            GameMechanicsScr.EasyCards = true;
+        else
+            GameMechanicsScr.EasyCards = false;
+        if(MediumTog.isOn)
+            GameMechanicsScr.MediumCards = true;
+        else
+            GameMechanicsScr.MediumCards = false;
+        if(HardTog.isOn)
+            GameMechanicsScr.HardCards = true;
+        else
+            GameMechanicsScr.HardCards = false;   
         
         SceneManager.LoadScene("MainGame");
 

@@ -34,7 +34,8 @@ public class GameMechanicsScr : MonoBehaviour
     public List<bool> TeamsAct = new List<bool>(); 
     public string Team1Name, Team2Name, Team3Name, Team4Name;
     public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
-    int EasyCards, MediumCards, HardCards;
+    int EasyCardsCnt, MediumCardsCnt, HardCardsCnt;
+    public bool EasyCards, MediumCards, HardCards;
     bool PauseGame;
 
     
@@ -59,40 +60,36 @@ public class GameMechanicsScr : MonoBehaviour
             TeamsAct.Add(false);
             TeamsScore.Add(0);
         } 
-        
-        /*for(int i=0; i<CardDeckEasy.Count; i++)
-        {
-           CardDeck.Add(CardDeckEasy[i]);
-        } 
-        for(int i=0; i<CardDeckMed.Count; i++)
-        {
-           CardDeck.Add(CardDeckMed[i]);
-        } 
-        for(int i=0; i<CardDeckHard.Count; i++)
-        {
-           CardDeck.Add(CardDeckHard[i]);
-        } */
-        
+                
         for(int i=0; i<CardDeckAllCards.Count; i++)
         {
-            if(CardDeckAllCards[i].difficulty == CardsTemp.Difficulty.medium)
+            if(EasyCards)
             {
-                CardDeck.Add(CardDeckAllCards[i]);
-                MediumCards++;      
+                if(CardDeckAllCards[i].difficulty == CardsTemp.Difficulty.easy)
+                {
+                    CardDeck.Add(CardDeckAllCards[i]);
+                    EasyCardsCnt++;      
+                }
             }
-            if(CardDeckAllCards[i].difficulty == CardsTemp.Difficulty.easy)
+            if(MediumCards)
             {
-                CardDeck.Add(CardDeckAllCards[i]);
-                EasyCards++;      
+                if(CardDeckAllCards[i].difficulty == CardsTemp.Difficulty.medium)
+                {
+                    CardDeck.Add(CardDeckAllCards[i]);
+                    MediumCardsCnt++;      
+                }
             }
-            if(CardDeckAllCards[i].difficulty == CardsTemp.Difficulty.hard)
+            if(HardCards)
             {
-                CardDeck.Add(CardDeckAllCards[i]);
-                HardCards++;      
+                if(CardDeckAllCards[i].difficulty == CardsTemp.Difficulty.hard)
+                {
+                    CardDeck.Add(CardDeckAllCards[i]);
+                    HardCardsCnt++;      
+                }
             }
            //CarDeck.Add(CardDeckHard[i]);
         }
-        Debug.Log("Easy: "+EasyCards + " Medium: "+ MediumCards + " Hard: "+HardCards);
+        Debug.Log("Easy: "+EasyCardsCnt + " Medium: "+ MediumCardsCnt + " Hard: "+HardCardsCnt);
 
         for(int i=0; i<CardDeck.Count; i++)
         {
