@@ -14,7 +14,7 @@ public class GameMechanicsScr : MonoBehaviour
     public GameObject BeforeRound, Card, AfterRound, Finale;
     public GameObject PassObj, EndOfTimeObj;
     public GameObject NextRoundBtn, LastRoundBtn;
-    public GameObject PauseWindow, PreExitWindow;
+    public GameObject PauseWindow, PreExitWindow, CardsZero;
     public int RandomFirstTeam;
     public int Score, WinnerTeams; 
     int TeamToBeActive;
@@ -99,19 +99,7 @@ public class GameMechanicsScr : MonoBehaviour
            CardDeck[RandomList] = Obj;
         }  
 
-        Cardstemp = CardDeck[0];
-        MainWord.text = Cardstemp.MainWord;
-        NoWord1.text = Cardstemp.NoWord1;
-        NoWord2.text = Cardstemp.NoWord2;
-        NoWord3.text = Cardstemp.NoWord3;
-        if(WordsCount > 3)
-            NoWord4.text = Cardstemp.NoWord4;
-        else
-            NoWord4.text = "";
-        if(WordsCount > 4)
-            NoWord5.text = Cardstemp.NoWord5;
-        else
-            NoWord5.text = "";
+        NewCard();
 
         RandomFirstTeam = Random.Range(0, Teams.Count);
         TeamsAct[RandomFirstTeam] = true;
@@ -146,6 +134,8 @@ public class GameMechanicsScr : MonoBehaviour
             }*/
             //Debug.Log(RoundsTotal);
         }
+
+
 
 
         if(PreRoundBool)
@@ -304,6 +294,8 @@ public class GameMechanicsScr : MonoBehaviour
     }
     public void EndOfTimeBtn()
     {
+        NewCard();
+
         if(RoundsSmallCount < TeamCount)
             RoundsSmallCount++; 
         else
@@ -384,6 +376,13 @@ public class GameMechanicsScr : MonoBehaviour
     {
         CardDeck.Remove(CardDeck[0]);
 
+        if(CardDeck.Count == 0)
+        {
+            Timer = 0;
+            CardsZero.SetActive(true);
+        }
+        
+        
         Cardstemp = CardDeck[0];
         MainWord.text = Cardstemp.MainWord;
         NoWord1.text = Cardstemp.NoWord1;
@@ -410,6 +409,7 @@ public class GameMechanicsScr : MonoBehaviour
     {        
         PassObj.SetActive(true);
         EndOfTimeObj.SetActive(false);
+        CardsZero.SetActive(false);
         RoundBool = false;
         AfterRoundBool = true;
         
@@ -468,7 +468,7 @@ public class GameMechanicsScr : MonoBehaviour
 
         if(WinnerTeams<2)
         {
-            WinningKeimeno.text = "Οι Taboosth νικητές είναι οι"; 
+            WinningKeimeno.text = "Οι Taboost νικητές είναι οι"; 
             WinningTeam.text = Teams[TeamToWin];   
 
         switch (TeamToWin) 
@@ -486,7 +486,7 @@ public class GameMechanicsScr : MonoBehaviour
         }
         else
         {
-            WinningKeimeno.text = "Οι Taboosth νικητές με ισοπαλία είναι οι"; 
+            WinningKeimeno.text = "Οι Taboost νικητές με ισοπαλία είναι οι"; 
 
             for(int i=0; i<TeamsAct.Count; i++)
             {
@@ -552,7 +552,6 @@ public class GameMechanicsScr : MonoBehaviour
             }
         }
             
-
         EndOfTimeBool = false;
         PassToLoseLeft = 0;
         Timer = TimerPick;

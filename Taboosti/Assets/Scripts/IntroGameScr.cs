@@ -243,20 +243,25 @@ public class IntroGameScr : MonoBehaviour
     public void StoreName1()
     {
         Team1Name = Input1.GetComponent<Text>().text;
+        if(Team1Name=="")
+            Team1Name = "Ομάδα1";
     }
     public void StoreName2()
     {
         Team2Name = Input2.GetComponent<Text>().text;
-        //GameMechanicsScr.Teams.Add(GameMechanicsScr.Teams[1]);
+        if(Team2Name=="")
+            Team2Name = "Ομάδα2";
     }
     public void StoreName3()
     {
         Team3Name = Input3.GetComponent<Text>().text;
-        //GameMechanicsScr.Teams.Add(GameMechanicsScr.Teams[1]);
+        if(Team3Name=="")
+            Team3Name = "Ομάδα3";
     }
     public void StoreName4()
     {
         Team4Name = Input4.GetComponent<Text>().text;
-        //GameMechanicsScr.Teams.Add(GameMechanicsScr.Teams[1]);
+        if(Team4Name=="")
+            Team4Name = "Ομάδα4";
     }
 }
