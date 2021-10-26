@@ -135,9 +135,6 @@ public class GameMechanicsScr : MonoBehaviour
             //Debug.Log(RoundsTotal);
         }
 
-
-
-
         if(PreRoundBool)
         {
             for(int i=0; i<TeamsAct.Count; i++)
