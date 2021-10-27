@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameMechanicsScr : MonoBehaviour
 {
     public CardsTemp Cardstemp;
+    public AllDataHere AllDataHere;
     public Text MainWord, NoWord1, NoWord2, NoWord3, NoWord4, NoWord5;
     public Text ScoreTxt, TimerTxt, BeforeRoundTxt, RoundTxt;
     public Text TeamScore, GameScore, WinningTeam, WinningKeimeno, TelikoGameScore, WinningTeamSpot1, WinningTeamSpot2, WinningTeamSpot3, WinningTeamSpot4;
@@ -26,7 +27,6 @@ public class GameMechanicsScr : MonoBehaviour
     public float WordsCount;
     public float TeamCount;
     public float RoundsCount, RoundsSmallCount, RoundsCurrentCount, RoundsTotal;
-    public IntroGameScr IntroGameScr;
     public List<CardsTemp> CardDeckAllCards = new List<CardsTemp>();
     public List<CardsTemp> CardDeck = new List<CardsTemp>();
     public List<string> Teams = new List<string>(); 
@@ -35,12 +35,30 @@ public class GameMechanicsScr : MonoBehaviour
     public string Team1Name, Team2Name, Team3Name, Team4Name;
     public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
     int EasyCardsCnt, MediumCardsCnt, HardCardsCnt;
-    public bool EasyCards, MediumCards, HardCards;
+    bool EasyCards, MediumCards, HardCards;
     bool PauseGame;
 
     
     void Awake() 
     {
+        TeamCount = AllDataHere.TeamCount;
+        TimerPick = AllDataHere.TimerPick;
+        PassToLosePick = AllDataHere.PassToLosePick;
+        WordsCount =  AllDataHere.WordsCount;
+        RoundsCount = AllDataHere.RoundsCount;
+        TeamColor1 = AllDataHere.TeamColor1;
+        TeamColor2 = AllDataHere.TeamColor2;
+        TeamColor3 = AllDataHere.TeamColor3;
+        TeamColor4 = AllDataHere.TeamColor4;
+        Team1Name = AllDataHere.Team1Name;
+        Team2Name = AllDataHere.Team2Name;
+        Team3Name = AllDataHere.Team3Name;
+        Team4Name = AllDataHere.Team4Name;
+        EasyCards = AllDataHere.EasyCards;
+        MediumCards = AllDataHere.MediumCards;
+        HardCards = AllDataHere.HardCards;
+        
+
         Teams.Add(Team1Name);
         Teams.Add(Team2Name);
         TeamsAct.Add(false);

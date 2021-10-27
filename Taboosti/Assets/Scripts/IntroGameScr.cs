@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class IntroGameScr : MonoBehaviour
 {
+    public AllDataHere AllDataHere;
     public GameObject MainMenu, GameSelect, TeamSelect;
     public GameObject Team1, Team2, Team3, Team4;
     public GameObject PlayBtn, SettingsBtn, HowToPlayBtn, CreditsBtn;
@@ -17,7 +18,6 @@ public class IntroGameScr : MonoBehaviour
     public Slider PlayerSlider, TimerSlider, PassSlider, WordsSlider, RoundsSlider;
     public Toggle EasyTog, MediumTog, HardTog;
     public InputField TeamName1, TeamName2, TeamName3, TeamName4;
-    public GameMechanicsScr GameMechanicsScr;
     public ToggleGroup toggleGroup1, toggleGroup2, toggleGroup3, toggleGroup4;
     int TongglesOn = 0;
     bool CanStart = true;
@@ -191,12 +191,12 @@ public class IntroGameScr : MonoBehaviour
             }
         }
         
-        GameMechanicsScr.TeamColor1 = ToggleTeam1.GetComponent<Toggle>().colors.normalColor;  
-        GameMechanicsScr.TeamColor2 = ToggleTeam2.GetComponent<Toggle>().colors.normalColor;  
+        AllDataHere.TeamColor1 = ToggleTeam1.GetComponent<Toggle>().colors.normalColor;  
+        AllDataHere.TeamColor2 = ToggleTeam2.GetComponent<Toggle>().colors.normalColor;  
         if(PlayerSlider.value > 2)
-            GameMechanicsScr.TeamColor3 = ToggleTeam3.GetComponent<Toggle>().colors.normalColor;  
+            AllDataHere.TeamColor3 = ToggleTeam3.GetComponent<Toggle>().colors.normalColor;  
         if(PlayerSlider.value > 3)
-            GameMechanicsScr.TeamColor4 = ToggleTeam4.GetComponent<Toggle>().colors.normalColor;      
+            AllDataHere.TeamColor4 = ToggleTeam4.GetComponent<Toggle>().colors.normalColor;      
 
         if(CanStart)
             StartGame(); 
@@ -211,30 +211,30 @@ public class IntroGameScr : MonoBehaviour
     public void StartGame()
     {
         
-        GameMechanicsScr.Team1Name = Team1Name;
-        GameMechanicsScr.Team2Name = Team2Name;
-        GameMechanicsScr.Team3Name = Team3Name;
-        GameMechanicsScr.Team4Name = Team4Name;
+        AllDataHere.Team1Name = Team1Name;
+        AllDataHere.Team2Name = Team2Name;
+        AllDataHere.Team3Name = Team3Name;
+        AllDataHere.Team4Name = Team4Name;
 
 
-        GameMechanicsScr.TeamCount = PlayerSlider.value;
-        GameMechanicsScr.TimerPick = TimerSlider.value;
-        GameMechanicsScr.PassToLosePick = PassSlider.value; 
-        GameMechanicsScr.WordsCount = WordsSlider.value;  
-        GameMechanicsScr.RoundsCount = RoundsSlider.value;
+        AllDataHere.TeamCount = PlayerSlider.value;
+        AllDataHere.TimerPick = TimerSlider.value;
+        AllDataHere.PassToLosePick = PassSlider.value; 
+        AllDataHere.WordsCount = WordsSlider.value;  
+        AllDataHere.RoundsCount = RoundsSlider.value;
 
         if(EasyTog.isOn)
-            GameMechanicsScr.EasyCards = true;
+            AllDataHere.EasyCards = true;
         else
-            GameMechanicsScr.EasyCards = false;
+            AllDataHere.EasyCards = false;
         if(MediumTog.isOn)
-            GameMechanicsScr.MediumCards = true;
+            AllDataHere.MediumCards = true;
         else
-            GameMechanicsScr.MediumCards = false;
+            AllDataHere.MediumCards = false;
         if(HardTog.isOn)
-            GameMechanicsScr.HardCards = true;
+            AllDataHere.HardCards = true;
         else
-            GameMechanicsScr.HardCards = false;   
+            AllDataHere.HardCards = false;   
         
         SceneManager.LoadScene("MainGame");
 
