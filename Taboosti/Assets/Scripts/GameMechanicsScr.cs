@@ -16,6 +16,7 @@ public class GameMechanicsScr : MonoBehaviour
     public GameObject PassObj, EndOfTimeObj;
     public GameObject NextRoundBtn, LastRoundBtn;
     public GameObject PauseWindow, PreExitWindow, CardsZero;
+    public Slider TimerSlider;
     public int RandomFirstTeam;
     public int Score, WinnerTeams; 
     int TeamToBeActive;
@@ -43,6 +44,7 @@ public class GameMechanicsScr : MonoBehaviour
     {
         TeamCount = AllDataHere.TeamCount;
         TimerPick = AllDataHere.TimerPick;
+        TimerSlider.maxValue = TimerPick;
         PassToLosePick = AllDataHere.PassToLosePick;
         WordsCount =  AllDataHere.WordsCount;
         RoundsCount = AllDataHere.RoundsCount;
@@ -182,27 +184,27 @@ public class GameMechanicsScr : MonoBehaviour
             if(Timer > 0)
             {
                 if(!PauseGame)
-                Timer -= 1 * Time.deltaTime;
+                    Timer -= 1 * Time.deltaTime;
+                
                 TimerTxt.text = Timer.ToString("0");
+                TimerSlider.value = Timer;
+                
             }
             else
             {
-                TimerTxt.text = "Τέλος Χρόνου";
+                TimerTxt.text = "0";
                 RoundBool = false;
                 //Play Sound
                 
                 PassObj.SetActive(false);
                 EndOfTimeObj.SetActive(true);
                 EndOfTimeBool = true;
-                //End Turn
             }    
                 
             for(int i=0; i<TeamsAct.Count; i++)
             {
                 if(TeamsAct[i])
-                {
                     ScoreTxt.text = "Πόντους: " + CurrentScore;
-                }
             }
         }
 

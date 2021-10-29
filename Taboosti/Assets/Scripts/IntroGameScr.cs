@@ -41,13 +41,7 @@ public class IntroGameScr : MonoBehaviour
     }
 
     void Update()
-    {        
-        
-
-        //Debug.Log("Team1 = "+ ToggleTeam1 + " Team2 = "+ ToggleTeam2 + " Team3 = "+ ToggleTeam3 + " Team4 = "+ ToggleTeam4);
-        //Debug.Log(toggleGroup1.ActiveToggles());    
-        //ColorBlock toggletest = TogglesRed[0].GetComponent<Toggle>().colors;
-
+    {       
         if(!EasyTog.isOn && !MediumTog.isOn && !HardTog.isOn)
         {
             MediumTog.isOn = true;
@@ -65,9 +59,12 @@ public class IntroGameScr : MonoBehaviour
         
         Team1.SetActive(true);
         Team2.SetActive(true);
+        Team3.SetActive(false);
+        Team4.SetActive(false);
 
         TeamName1.characterLimit = 20;
         TeamName2.characterLimit = 20;
+        
         if(PlayerSlider.value > 2)
         {
             Team3.SetActive(true);
@@ -210,7 +207,6 @@ public class IntroGameScr : MonoBehaviour
 
     public void StartGame()
     {
-        
         AllDataHere.Team1Name = Team1Name;
         AllDataHere.Team2Name = Team2Name;
         AllDataHere.Team3Name = Team3Name;
@@ -237,7 +233,6 @@ public class IntroGameScr : MonoBehaviour
             AllDataHere.HardCards = false;   
         
         SceneManager.LoadScene("MainGame");
-
     }   
 
     public void StoreName1()
@@ -263,5 +258,9 @@ public class IntroGameScr : MonoBehaviour
         Team4Name = Input4.GetComponent<Text>().text;
         if(Team4Name=="")
             Team4Name = "Ομάδα4";
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
