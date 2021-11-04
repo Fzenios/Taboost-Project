@@ -35,3 +35,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Taboosti/Assets/HiddenScripts/MailScr.cs.meta
+Taboosti/Assets/HiddenScripts/MailScr.cs
+Taboosti/Assets/HiddenScripts.meta
