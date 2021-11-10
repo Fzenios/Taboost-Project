@@ -74,17 +74,17 @@ public class AdsScr : MonoBehaviour
 
     public void HandleOnAdOpened(object sender, EventArgs args)
     {
-        MonoBehaviour.print("HandleAdOpened event received");
+        //MonoBehaviour.print("HandleAdOpened event received");
     }
 
     public void HandleOnAdClosed(object sender, EventArgs args)
     {
-        MonoBehaviour.print("HandleAdClosed event received");
+       // MonoBehaviour.print("HandleAdClosed event received");
     }
 
     public void HandleOnAdLeavingApplication(object sender, EventArgs args)
     {
-        MonoBehaviour.print("HandleAdLeavingApplication event received");
+        //MonoBehaviour.print("HandleAdLeavingApplication event received");
     }
 
 
