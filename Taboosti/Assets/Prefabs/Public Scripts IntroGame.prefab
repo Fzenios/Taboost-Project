@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3489316121494671957}
   - component: {fileID: 3489316121494671956}
+  - component: {fileID: 853858721}
   m_Layer: 0
   m_Name: Public Scripts IntroGame
   m_TagString: Untagged
@@ -43,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcabfc5c0574a3742b1a77f7ed2769d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AllDataHere: {fileID: 11400000, guid: 4a44d615c1402454b902c1b1fd2cfb08, type: 2}
   MainMenu: {fileID: 0}
   GameSelect: {fileID: 0}
   TeamSelect: {fileID: 0}
@@ -59,7 +61,6 @@ MonoBehaviour:
   Input2: {fileID: 0}
   Input3: {fileID: 0}
   Input4: {fileID: 0}
-  Team1Name: 
   TogglesRed:
   - {fileID: 0}
   - {fileID: 0}
@@ -100,10 +101,16 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  PlayerSlTxt: {fileID: 0}
+  TimerSlTxt: {fileID: 0}
+  PassSlTxt: {fileID: 0}
+  WordsSlTxt: {fileID: 0}
+  RoundsSlTxt: {fileID: 0}
   PlayerSlider: {fileID: 0}
   TimerSlider: {fileID: 0}
   PassSlider: {fileID: 0}
   WordsSlider: {fileID: 0}
+  RoundsSlider: {fileID: 0}
   EasyTog: {fileID: 0}
   MediumTog: {fileID: 0}
   HardTog: {fileID: 0}
@@ -111,4 +118,27 @@ MonoBehaviour:
   TeamName2: {fileID: 0}
   TeamName3: {fileID: 0}
   TeamName4: {fileID: 0}
-  GameMechanicsScr: {fileID: 2524434316108736182, guid: 9781ab87abc63914f9ca52a95a7abce1, type: 3}
+  toggleGroup1: {fileID: 0}
+  toggleGroup2: {fileID: 0}
+  toggleGroup3: {fileID: 0}
+  toggleGroup4: {fileID: 0}
+--- !u!114 &853858721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489316121494671914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33be174b614e6f34188b1ce951e6c8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainWord: {fileID: 0}
+  Word1: {fileID: 0}
+  Word2: {fileID: 0}
+  Word3: {fileID: 0}
+  Word4: {fileID: 0}
+  Word5: {fileID: 0}
+  Timer: 0
+  text: {fileID: 0}

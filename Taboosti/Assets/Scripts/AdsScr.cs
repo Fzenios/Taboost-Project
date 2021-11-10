@@ -3,60 +3,73 @@ using System.Collections.Generic;
 using UnityEngine;
 using GoogleMobileAds.Api;
 using System;
-using UnityEngine.UI;
 
 public class AdsScr : MonoBehaviour
 {
-    public Text text;
-    string App_ID = "ca-app-pub-3970092684747698~1257890209";
-
-    string BannerID = "ca-app-pub-3970092684747698/1508143978";
-    string InterstitialID = "ca-app-pub-3970092684747698/7961354767";
+    string bannerID;
+    string interstitialAd;
     private BannerView bannerView;
     private InterstitialAd interstitial;
 
     void Start()
     {
-        // Initialize the Google Mobile Ads SDK.
+        bannerID = "ca-app-pub-3940256099942544/6300978111";
+        interstitialAd = "ca-app-pub-3940256099942544/1033173712";
         MobileAds.Initialize(InitializationStatus => { });
-
+        RequestBanner();
+        RequestInterstitial();
+        
     }
-    public void RequestBanner()
+    void RequestBanner()
     {
-        // Create a 320x50 banner at the top of the screen.
-        this.bannerView = new BannerView(BannerID, AdSize.SmartBanner, AdPosition.Bottom);
-
-        // Called when an ad request has successfully loaded.
+        bannerView = new BannerView(bannerID, AdSize.SmartBanner, AdPosition.Bottom);
+        
         this.bannerView.OnAdLoaded += this.HandleOnAdLoaded;
-        // Called when an ad request failed to load.
         this.bannerView.OnAdFailedToLoad += this.HandleOnAdFailedToLoad;
-        // Called when an ad is clicked.
         this.bannerView.OnAdOpening += this.HandleOnAdOpened;
-        // Called when the user returned from the app after an ad click.
         this.bannerView.OnAdClosed += this.HandleOnAdClosed;
-        // Called when the ad click caused the user to leave the application.
+     
+        ShowBanner();
     }
-
     public void ShowBanner()
     {
-         // Create an empty ad request.
+        AdRequest request = new AdRequest.Builder().Build();
+        bannerView.LoadAd(request);
+    }
+    void RequestInterstitial()
+    {
+        interstitial = new InterstitialAd(interstitialAd);
+        this.interstitial.OnAdLoaded += this.HandleOnAdLoaded;
+        this.interstitial.OnAdFailedToLoad += this.HandleOnAdFailedToLoad;
+        this.interstitial.OnAdOpening += this.HandleOnAdOpened;
+        this.interstitial.OnAdClosed += this.HandleOnAdClosed;
+        
+        //LoadInterstitial();
+    }
+    public void LoadInterstitial()
+    {
         AdRequest request = new AdRequest.Builder().Build();
 
-        // Load the banner with the request.
-        this.bannerView.LoadAd(request);
+        this.interstitial.LoadAd(request);
+        ShowInterstitial();
 
     }
-
-        public void HandleOnAdLoaded(object sender, EventArgs args)
+    void ShowInterstitial()
     {
-        text.text = " egine to load ";
-        //MonoBehaviour.print("HandleAdLoaded event received");
+        if (this.interstitial.IsLoaded()) {
+            this.interstitial.Show();
+        }
+    }   
+
+
+    public void HandleOnAdLoaded(object sender, EventArgs args)
+    {
         
     }
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
-        text.text = " failed ";
+
     }
 
     public void HandleOnAdOpened(object sender, EventArgs args)
