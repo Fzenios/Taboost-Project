@@ -590,7 +590,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3489316121494671956, guid: f536f0944bdb8854593aa9e6d19367e9, type: 3}
   m_PrefabInstance: {fileID: 3489316121460071957}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 865311317}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dcabfc5c0574a3742b1a77f7ed2769d0, type: 3}
@@ -4330,15 +4330,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productId: com.Fzenios.AdsRemoval
+  productId: com.Fzenios.Taboost.AdsRemoval
   buttonType: 0
   consumePurchase: 1
   onPurchaseComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 865311319}
+        m_TargetAssemblyTypeName: IAPScr, Assembly-CSharp
+        m_MethodName: OnPurchaseComplete
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onPurchaseFailed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 865311319}
+        m_TargetAssemblyTypeName: IAPScr, Assembly-CSharp
+        m_MethodName: OnPurchaseFailed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   titleText: {fileID: 964521332}
   descriptionText: {fileID: 890139258}
   priceText: {fileID: 0}
@@ -6377,15 +6401,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productId: com.Fzenios.BuyNSFW
+  productId: com.Fzenios.Taboost.BuyNSFW
   buttonType: 0
   consumePurchase: 1
   onPurchaseComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 865311319}
+        m_TargetAssemblyTypeName: IAPScr, Assembly-CSharp
+        m_MethodName: OnPurchaseComplete
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onPurchaseFailed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 865311319}
+        m_TargetAssemblyTypeName: IAPScr, Assembly-CSharp
+        m_MethodName: OnPurchaseFailed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   titleText: {fileID: 1879481376}
   descriptionText: {fileID: 844002632}
   priceText: {fileID: 0}
@@ -9452,7 +9500,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 853858721, guid: f536f0944bdb8854593aa9e6d19367e9, type: 3}
   m_PrefabInstance: {fileID: 3489316121460071957}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 865311317}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33be174b614e6f34188b1ce951e6c8d4, type: 3}
@@ -9686,6 +9734,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &865311317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3489316121494671914, guid: f536f0944bdb8854593aa9e6d19367e9, type: 3}
+  m_PrefabInstance: {fileID: 3489316121460071957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &865311319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865311317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c79205d4f1a9646b99b015afe3a876, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &869816384
 GameObject:
   m_ObjectHideFlags: 0
