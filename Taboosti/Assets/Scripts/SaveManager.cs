@@ -6,18 +6,14 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class SaveManager : MonoBehaviour
 {
-    public ExtraDataHere extradatahere;
-    public DataForSaving data;
+    public ExtraDataHere extraDataHere;
     public void Save()
     {
-        FileStream file = new FileStream(Application.persistentDataPath + "/GameSave.dat", FileMode.Create);
+        FileStream file = new FileStream(Application.persistentDataPath + "/GameSavedata.dat", FileMode.OpenOrCreate);
         BinaryFormatter formatter = new BinaryFormatter();
-
-        DataForSaving data = new DataForSaving(extradatahere);
                 
-        formatter.Serialize (file, data);
+        formatter.Serialize (file, extraDataHere.dataForSaving);
         
-        //Debug.Log(extradatahere.Sound);
         Debug.Log("egine to save");
 
         file.Close();
@@ -25,16 +21,14 @@ public class SaveManager : MonoBehaviour
 
     public void Load()
     {
-        FileStream file = new FileStream(Application.persistentDataPath + "/GameSave.dat", FileMode.OpenOrCreate);
+        FileStream file = new FileStream(Application.persistentDataPath + "/GameSavedata.dat", FileMode.Open);
         BinaryFormatter formatter = new BinaryFormatter();
 
-        DataForSaving data =  formatter.Deserialize(file) as DataForSaving;
+        extraDataHere.dataForSaving = (ExtraDataHere.DataForSaving)formatter.Deserialize(file);
         
         Debug.Log("egine to load");
-        Debug.Log(extradatahere.dataForSaving.Sound);
-        
-        file.Close();
 
+        file.Close();
     }
 
 }
