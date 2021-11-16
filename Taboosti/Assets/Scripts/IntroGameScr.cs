@@ -22,6 +22,7 @@ public class IntroGameScr : MonoBehaviour
     bool CanStart = true;
     Toggle ToggleTeam1, ToggleTeam2, ToggleTeam3, ToggleTeam4;
     public ExtraDataHere extradatahere;
+    public GameObject SoundOn, SoundOff;
     //public SaveManager saveManager;
     //public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
     void Start()
@@ -37,11 +38,7 @@ public class IntroGameScr : MonoBehaviour
         Team1Name = "Ομάδα1";
         Team2Name = "Ομάδα2";
         Team3Name = "Ομάδα3";
-        Team4Name = "Ομάδα4";
-
-        
-
-        
+        Team4Name = "Ομάδα4";        
     } 
 
     void Update()
@@ -270,6 +267,17 @@ public class IntroGameScr : MonoBehaviour
     public void MuteGame()
     {
         extradatahere.dataForSaving.Sound =! extradatahere.dataForSaving.Sound;
+        AllDataHere.Sound = extradatahere.dataForSaving.Sound;
+        if(extradatahere.dataForSaving.Sound)
+            {
+                SoundOn.SetActive(true);
+                SoundOff.SetActive(false);
+            }
+        else
+            {
+                SoundOn.SetActive(false);
+                SoundOff.SetActive(true);
+            }
         Debug.Log(extradatahere.dataForSaving.Sound);
     }
     

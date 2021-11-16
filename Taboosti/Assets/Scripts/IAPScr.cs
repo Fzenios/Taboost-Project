@@ -10,21 +10,23 @@ public class IAPScr : MonoBehaviour
     public AllDataHere AllDataHere;
     public ExtraDataHere extradatahere;
     public SaveManager saveManager;
+    public AdsScr adsScr;
     
     public void OnPurchaseComplete(Product product)
     {
         if(product.definition.id == AdsRemove)
         {
             extradatahere.dataForSaving.Ads = false;
+            extradatahere.ButtonsCheck();
             saveManager.Save();
-            Debug.Log(extradatahere.dataForSaving.Ads);
+            adsScr.BannerDestroy();
             Debug.Log("efigan oi diafimiseis");
         }
         if(product.definition.id == NSFW)
         {
-            extradatahere.dataForSaving.NSFW = false;
+            extradatahere.dataForSaving.NSFW = true;
+            extradatahere.ButtonsCheck();
             saveManager.Save();
-            Debug.Log(extradatahere.dataForSaving.NSFW);
             Debug.Log("agorastike to nsfw");
         }
     }

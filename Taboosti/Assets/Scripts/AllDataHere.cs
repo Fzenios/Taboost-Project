@@ -10,6 +10,8 @@ public class AllDataHere : ScriptableObject
     
     public bool EasyCards, MediumCards, HardCards; 
     public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
+    
+    public bool Sound;
 
 
 }

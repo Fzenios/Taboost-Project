@@ -10,14 +10,19 @@ public class AdsScr : MonoBehaviour
     string interstitialAd;
     private BannerView bannerView;
     private InterstitialAd interstitial;
+    public ExtraDataHere extradatahere;
 
     void Start()
     {
-        bannerID = "ca-app-pub-3940256099942544/6300978111";
-        interstitialAd = "ca-app-pub-3940256099942544/1033173712";
-        MobileAds.Initialize(InitializationStatus => { });
-        RequestBanner();
-        RequestInterstitial();
+        if(extradatahere.dataForSaving.Ads)
+        {
+            bannerID = "ca-app-pub-3940256099942544/6300978111";
+            interstitialAd = "ca-app-pub-3940256099942544/1033173712";
+            MobileAds.Initialize(InitializationStatus => { });
+            
+            RequestBanner();
+            RequestInterstitial();
+        }
         
     }
     void RequestBanner()
@@ -35,6 +40,8 @@ public class AdsScr : MonoBehaviour
     {
         AdRequest request = new AdRequest.Builder().Build();
         bannerView.LoadAd(request);
+        if(!extradatahere.dataForSaving.Ads)
+            bannerView.Destroy();
     }
     void RequestInterstitial()
     {
@@ -48,10 +55,13 @@ public class AdsScr : MonoBehaviour
     }
     public void LoadInterstitial()
     {
-        AdRequest request = new AdRequest.Builder().Build();
+        if(extradatahere.dataForSaving.Ads)
+        {
+            AdRequest request = new AdRequest.Builder().Build();
 
-        this.interstitial.LoadAd(request);
-        ShowInterstitial();
+            this.interstitial.LoadAd(request);
+            ShowInterstitial();
+        }
 
     }
     void ShowInterstitial()
@@ -60,6 +70,10 @@ public class AdsScr : MonoBehaviour
             this.interstitial.Show();
         }
     }   
+    public void BannerDestroy()
+    {    
+        bannerView.Destroy();
+    }
 
 
     public void HandleOnAdLoaded(object sender, EventArgs args)

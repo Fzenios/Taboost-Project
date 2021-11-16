@@ -9,12 +9,13 @@ public class ExtraDataHere : MonoBehaviour
     public SaveManager saveManager;
     public Button AdsBtn, NSFWBtn;
     public Toggle SoundBtn;
+    public GameObject SoundOn, SoundOff;
 
-    private void Start() 
+    private void Awake() 
     {
         dataForSaving.Sound = true;
         dataForSaving.Ads = true;
-        dataForSaving.NSFW = true;
+        dataForSaving.NSFW = false;
 
         saveManager.Load();     
 
@@ -39,12 +40,22 @@ public class ExtraDataHere : MonoBehaviour
     public void ButtonsCheck()
     {
         if(dataForSaving.Sound)
-            SoundBtn.isOn = true;
+            {
+                SoundOn.SetActive(true);
+                SoundOff.SetActive(false);
+            }
         else
-            SoundBtn.isOn = false;
+            {
+                SoundOn.SetActive(false);
+                SoundOff.SetActive(true);
+            }
         if(dataForSaving.Ads)
+            AdsBtn.interactable = true;
+        else
             AdsBtn.interactable = false;
         if(dataForSaving.NSFW)
             NSFWBtn.interactable = false;
+        else
+            NSFWBtn.interactable = true;
     }
 }

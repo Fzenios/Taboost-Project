@@ -38,6 +38,9 @@ public class GameMechanicsScr : MonoBehaviour
     int EasyCardsCnt, MediumCardsCnt, HardCardsCnt;
     bool EasyCards, MediumCards, HardCards;
     bool PauseGame;
+    public ExtraDataHere extradatahere;
+    public SaveManager saveManager;
+    public GameObject SoundOn, SoundOff;
 
     
     void Awake() 
@@ -126,6 +129,19 @@ public class GameMechanicsScr : MonoBehaviour
 
         PreRoundBool = true;
         EndOfTimeBool = false;
+
+        if(AllDataHere.Sound)
+            {
+                //Sound = Color.black;
+                SoundOn.SetActive(true);
+                SoundOff.SetActive(false);
+            }
+        else
+            {
+                SoundOn.SetActive(false);
+                SoundOff.SetActive(true);
+            }
+
 
     }
     void Start() 
@@ -576,7 +592,21 @@ public class GameMechanicsScr : MonoBehaviour
         NextRoundBtn.SetActive(false);
         Card.SetActive(false);
         Finale.SetActive(true);
-
+    }
+    public void SoundBnt()
+    {
+        extradatahere.dataForSaving.Sound =! extradatahere.dataForSaving.Sound;
+        if(extradatahere.dataForSaving.Sound)
+            {
+                SoundOn.SetActive(true);
+                SoundOff.SetActive(false);
+            }
+        else
+            {
+                SoundOn.SetActive(false);
+                SoundOff.SetActive(true);
+            }
+        Debug.Log(extradatahere.dataForSaving.Sound);
     }
     
 }
