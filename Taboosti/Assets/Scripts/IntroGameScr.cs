@@ -220,6 +220,8 @@ public class IntroGameScr : MonoBehaviour
         AllDataHere.WordsCount = WordsSlider.value;  
         AllDataHere.RoundsCount = RoundsSlider.value;
 
+        AllDataHere.Sound = extradatahere.dataForSaving.Sound;
+
         if(EasyTog.isOn)
             AllDataHere.EasyCards = true;
         else
@@ -267,7 +269,6 @@ public class IntroGameScr : MonoBehaviour
     public void MuteGame()
     {
         extradatahere.dataForSaving.Sound =! extradatahere.dataForSaving.Sound;
-        AllDataHere.Sound = extradatahere.dataForSaving.Sound;
         if(extradatahere.dataForSaving.Sound)
             {
                 SoundOn.SetActive(true);

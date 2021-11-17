@@ -41,6 +41,8 @@ public class GameMechanicsScr : MonoBehaviour
     public ExtraDataHere extradatahere;
     public SaveManager saveManager;
     public GameObject SoundOn, SoundOff;
+    public SoundsScr soundsScr;
+    bool TimerBool;
 
     
     void Awake() 
@@ -129,10 +131,10 @@ public class GameMechanicsScr : MonoBehaviour
 
         PreRoundBool = true;
         EndOfTimeBool = false;
-
+        
+        soundsScr.Mute();
         if(AllDataHere.Sound)
             {
-                //Sound = Color.black;
                 SoundOn.SetActive(true);
                 SoundOff.SetActive(false);
             }
@@ -160,17 +162,6 @@ public class GameMechanicsScr : MonoBehaviour
     }
     void Update()
     {
-        //Debug.Log(RoundsSmallCount);
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-
-           /* for(int i=0; i<TeamsAct.Count; i++)
-            {
-                Debug.Log(TeamsAct[i]);
-            }*/
-            //Debug.Log(RoundsTotal);
-        }
-
         if(PreRoundBool)
         {
             for(int i=0; i<TeamsAct.Count; i++)
@@ -192,7 +183,6 @@ public class GameMechanicsScr : MonoBehaviour
                 }
             }
             RoundTxt.text = "Γύρος " + RoundsCurrentCount;
-
         }
         
         if(RoundBool)
@@ -203,11 +193,11 @@ public class GameMechanicsScr : MonoBehaviour
                     Timer -= 1 * Time.deltaTime;
                 
                 TimerTxt.text = Timer.ToString("0");
-                TimerSlider.value = Timer;
-                
+                TimerSlider.value = Timer; 
             }
             else
             {
+                TimerBool = false;
                 TimerTxt.text = "0";
                 RoundBool = false;
                 //Play Sound
@@ -216,6 +206,18 @@ public class GameMechanicsScr : MonoBehaviour
                 EndOfTimeObj.SetActive(true);
                 EndOfTimeBool = true;
             }    
+            if(Timer > 0 && Timer <= 10)
+            {
+                if(!TimerBool)
+                    {
+                        TimerBool = true;
+                        soundsScr.Timer();
+                    } 
+            }
+            if(PauseGame)
+            {
+
+            }
                 
             for(int i=0; i<TeamsAct.Count; i++)
             {
@@ -445,6 +447,8 @@ public class GameMechanicsScr : MonoBehaviour
         CardsZero.SetActive(false);
         RoundBool = false;
         AfterRoundBool = true;
+
+        soundsScr.Winning();
         
         WinningTeamSpot1.text = "";
         WinningTeamSpot2.text = "";
@@ -600,13 +604,15 @@ public class GameMechanicsScr : MonoBehaviour
             {
                 SoundOn.SetActive(true);
                 SoundOff.SetActive(false);
+                soundsScr.Mute();
             }
         else
             {
                 SoundOn.SetActive(false);
                 SoundOff.SetActive(true);
+                soundsScr.Mute();
             }
-        Debug.Log(extradatahere.dataForSaving.Sound);
+        //Debug.Log(extradatahere.dataForSaving.Sound);
     }
     
 }
