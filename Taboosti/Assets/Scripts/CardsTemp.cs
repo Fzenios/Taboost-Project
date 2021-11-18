@@ -12,6 +12,6 @@ public class CardsTemp : ScriptableObject
     public string NoWord4;
     public string NoWord5;
 
-    public enum Difficulty {easy, medium, hard};
+    public enum Difficulty {easy, medium, hard, NSFW};
     public Difficulty difficulty;
 }

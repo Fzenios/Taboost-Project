@@ -8,7 +8,6 @@ public class ExtraDataHere : MonoBehaviour
     public DataForSaving dataForSaving;
     public SaveManager saveManager;
     public Button AdsBtn, NSFWBtn;
-    public Toggle SoundBtn;
     public GameObject SoundOn, SoundOff;
 
     private void Awake() 
@@ -49,13 +48,16 @@ public class ExtraDataHere : MonoBehaviour
                 SoundOn.SetActive(false);
                 SoundOff.SetActive(true);
             }
-        if(dataForSaving.Ads)
-            AdsBtn.interactable = true;
-        else
-            AdsBtn.interactable = false;
-        if(dataForSaving.NSFW)
-            NSFWBtn.interactable = false;
-        else
-            NSFWBtn.interactable = true;
+        if(AdsBtn != null)
+        {
+            if(dataForSaving.Ads)
+                AdsBtn.interactable = true;
+            else
+                AdsBtn.interactable = false;
+            if(dataForSaving.NSFW)
+                NSFWBtn.interactable = false;
+            else
+                NSFWBtn.interactable = true;
+        }
     }
 }
