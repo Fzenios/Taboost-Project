@@ -8,7 +8,7 @@ public class AllDataHere : ScriptableObject
     public string Team1Name, Team2Name, Team3Name, Team4Name;
     public float TeamCount, TimerPick, PassToLosePick, WordsCount, RoundsCount;
     
-    public bool EasyCards, MediumCards, HardCards; 
+    public bool EasyCards, MediumCards, HardCards, NSFWCards; 
     public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
     
     public bool Sound;

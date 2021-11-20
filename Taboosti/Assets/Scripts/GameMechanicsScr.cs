@@ -35,8 +35,8 @@ public class GameMechanicsScr : MonoBehaviour
     public List<bool> TeamsAct = new List<bool>(); 
     public string Team1Name, Team2Name, Team3Name, Team4Name;
     public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
-    int EasyCardsCnt, MediumCardsCnt, HardCardsCnt;
-    bool EasyCards, MediumCards, HardCards;
+    int EasyCardsCnt, MediumCardsCnt, HardCardsCnt, NSFWCardCnt;
+    bool EasyCards, MediumCards, HardCards, NSFWCards;
     bool PauseGame;
     public ExtraDataHere extradatahere;
     public SaveManager saveManager;
@@ -64,6 +64,7 @@ public class GameMechanicsScr : MonoBehaviour
         EasyCards = AllDataHere.EasyCards;
         MediumCards = AllDataHere.MediumCards;
         HardCards = AllDataHere.HardCards;
+        NSFWCards = AllDataHere.NSFWCards;
         
 
         Teams.Add(Team1Name);
@@ -112,9 +113,17 @@ public class GameMechanicsScr : MonoBehaviour
                     HardCardsCnt++;      
                 }
             }
+            if(NSFWCards)
+            {
+                if(CardDeckAllCards[i].difficulty == CardsTemp.Difficulty.NSFW)
+                {
+                    CardDeck.Add(CardDeckAllCards[i]);
+                    NSFWCardCnt++;      
+                }
+            }
            //CarDeck.Add(CardDeckHard[i]);
         }
-        Debug.Log("Easy: "+EasyCardsCnt + " Medium: "+ MediumCardsCnt + " Hard: "+HardCardsCnt);
+        Debug.Log("Easy: "+EasyCardsCnt + " Medium: "+ MediumCardsCnt + " Hard: "+ HardCardsCnt + " NSFW: "+ NSFWCardCnt);
 
         for(int i=0; i<CardDeck.Count; i++)
         {

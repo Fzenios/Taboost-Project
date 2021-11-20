@@ -15,14 +15,14 @@ public class IntroGameScr : MonoBehaviour
     public Toggle[] TogglesRed, TogglesPink, TogglesPurple, TogglesBlue, TogglesBlueLight, TogglesCyan, TogglesGreen, TogglesYellow;   
     public Text PlayerSlTxt, TimerSlTxt, PassSlTxt, WordsSlTxt, RoundsSlTxt;
     public Slider PlayerSlider, TimerSlider, PassSlider, WordsSlider, RoundsSlider;
-    public Toggle EasyTog, MediumTog, HardTog;
+    public Toggle EasyTog, MediumTog, HardTog, NSFWTog;
     public InputField TeamName1, TeamName2, TeamName3, TeamName4;
     public ToggleGroup toggleGroup1, toggleGroup2, toggleGroup3, toggleGroup4;
     int TongglesOn = 0;
     bool CanStart = true;
     Toggle ToggleTeam1, ToggleTeam2, ToggleTeam3, ToggleTeam4;
     public ExtraDataHere extradatahere;
-    public GameObject SoundOn, SoundOff;
+    public GameObject SoundOn, SoundOff, AskForNSFW;
     //public SaveManager saveManager;
     //public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
     void Start()
@@ -33,6 +33,7 @@ public class IntroGameScr : MonoBehaviour
         EasyTog.isOn = true;
         MediumTog.isOn = true;
         HardTog.isOn = true;
+        NSFWTog.isOn = false;
         WordsSlider.value = 5; 
         RoundsSlider.value = 3;
         Team1Name = "Ομάδα1";
@@ -52,6 +53,19 @@ public class IntroGameScr : MonoBehaviour
         PassSlTxt.text = "" + PassSlider.value; 
         WordsSlTxt.text = "" + WordsSlider.value;
         RoundsSlTxt.text = "" + RoundsSlider.value; 
+
+        if(NSFWTog.isOn)
+        {
+            if(!extradatahere.dataForSaving.NSFW)
+            {
+                NSFWTog.isOn = false;
+                AskForNSFW.SetActive(true);
+            }
+            else
+            {
+                NSFWTog.isOn = true;
+            }
+        }
     }
     public void ToTeamSelect()
     {    
@@ -213,7 +227,6 @@ public class IntroGameScr : MonoBehaviour
         AllDataHere.Team3Name = Team3Name;
         AllDataHere.Team4Name = Team4Name;
 
-
         AllDataHere.TeamCount = PlayerSlider.value;
         AllDataHere.TimerPick = TimerSlider.value;
         AllDataHere.PassToLosePick = PassSlider.value; 
@@ -233,7 +246,11 @@ public class IntroGameScr : MonoBehaviour
         if(HardTog.isOn)
             AllDataHere.HardCards = true;
         else
-            AllDataHere.HardCards = false;   
+            AllDataHere.HardCards = false; 
+        if(NSFWTog.isOn)
+            AllDataHere.NSFWCards = true;
+        else
+            AllDataHere.NSFWCards = false;    
         
         SceneManager.LoadScene("MainGame");
     }   
@@ -281,5 +298,6 @@ public class IntroGameScr : MonoBehaviour
             }
         Debug.Log(extradatahere.dataForSaving.Sound);
     }
+        
     
 }
