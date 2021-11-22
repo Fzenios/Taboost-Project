@@ -23,6 +23,7 @@ public class IntroGameScr : MonoBehaviour
     Toggle ToggleTeam1, ToggleTeam2, ToggleTeam3, ToggleTeam4;
     public ExtraDataHere extradatahere;
     public GameObject SoundOn, SoundOff, AskForNSFW;
+    public GameObject ExitMenu;
     //public SaveManager saveManager;
     //public Color TeamColor1, TeamColor2, TeamColor3, TeamColor4;
     void Start()
@@ -66,6 +67,8 @@ public class IntroGameScr : MonoBehaviour
                 NSFWTog.isOn = true;
             }
         }
+        if(Input.GetKeyDown (KeyCode.Escape))
+            ExitMenu.SetActive(true);
     }
     public void ToTeamSelect()
     {    
@@ -296,7 +299,6 @@ public class IntroGameScr : MonoBehaviour
                 SoundOn.SetActive(false);
                 SoundOff.SetActive(true);
             }
-        Debug.Log(extradatahere.dataForSaving.Sound);
     }
         
     

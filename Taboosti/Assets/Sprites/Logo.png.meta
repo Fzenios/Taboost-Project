@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 1404028623067837608
     second: Logo_0
+  - first:
+      213: 6795467416601567747
+    second: Logo_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,12 +124,12 @@ TextureImporter:
       name: Logo_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 1498
-        width: 1007
-        height: 340
+        x: 46
+        y: 374
+        width: 977
+        height: 227
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,6 +137,27 @@ TextureImporter:
       bones: []
       spriteID: 8a47074089c1c7310800000000000000
       internalID: 1404028623067837608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 721
+        width: 976
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30227498c995e4e50800000000000000
+      internalID: 6795467416601567747
       vertices: []
       indices: 
       edges: []

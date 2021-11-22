@@ -10,7 +10,7 @@ public class GameMechanicsScr : MonoBehaviour
     public AllDataHere AllDataHere;
     public Text MainWord, NoWord1, NoWord2, NoWord3, NoWord4, NoWord5;
     public Text ScoreTxt, TimerTxt, BeforeRoundTxt, RoundTxt;
-    public Text TeamScore, GameScore, WinningTeam, WinningKeimeno, TelikoGameScore, WinningTeamSpot1, WinningTeamSpot2, WinningTeamSpot3, WinningTeamSpot4;
+    public Text TeamScore, GameScore, WinningTeam, WinningKeimeno, WinningTeamSpot1, WinningTeamSpot2, WinningTeamSpot3, WinningTeamSpot4;
     public Text TeamGameScore1, TeamGameScore2, TeamGameScore3, TeamGameScore4, FinalTeamGameScore1, FinalTeamGameScore2, FinalTeamGameScore3, FinalTeamGameScore4;
     public GameObject BeforeRound, Card, AfterRound, Finale;
     public GameObject PassObj, EndOfTimeObj;
@@ -171,6 +171,9 @@ public class GameMechanicsScr : MonoBehaviour
     }
     void Update()
     {
+        if(Input.GetKeyDown (KeyCode.Escape))
+            PauseBtn();
+
         if(PreRoundBool)
         {
             for(int i=0; i<TeamsAct.Count; i++)
@@ -222,10 +225,6 @@ public class GameMechanicsScr : MonoBehaviour
                         TimerBool = true;
                         soundsScr.Timer();
                     } 
-            }
-            if(PauseGame)
-            {
-
             }
                 
             for(int i=0; i<TeamsAct.Count; i++)
