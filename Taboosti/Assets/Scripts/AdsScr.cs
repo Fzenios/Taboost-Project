@@ -16,8 +16,8 @@ public class AdsScr : MonoBehaviour
     {
         if(extradatahere.dataForSaving.Ads)
         {
-            bannerID = "ca-app-pub-3940256099942544/6300978111";
-            interstitialAd = "ca-app-pub-3940256099942544/1033173712";
+            bannerID = "ca-app-pub-3970092684747698/1508143978";
+            interstitialAd = "ca-app-pub-3970092684747698/7961354767";
             MobileAds.Initialize(InitializationStatus => { });
             
             RequestBanner();
