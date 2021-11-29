@@ -5,8 +5,8 @@ using UnityEngine.Purchasing;
 
 public class IAPScr : MonoBehaviour
 {
-    string AdsRemove = "com.Fzenios.Taboost.AdsRemoval";
-    string NSFW = "com.Fzenios.Taboost.BuyNSFW";
+    string AdsRemove = "com.fzenios.taboost.adsremoval";
+    string NSFW = "com.fzenios.taboost.buynsfw";
     public AllDataHere AllDataHere;
     public ExtraDataHere extradatahere;
     public SaveManager saveManager;

@@ -18,9 +18,9 @@ public class AdsScr : MonoBehaviour
         {
             bannerID = "ca-app-pub-3970092684747698/1508143978";
             interstitialAd = "ca-app-pub-3970092684747698/7961354767";
-            MobileAds.Initialize(InitializationStatus => { });
+            MobileAds.Initialize(initStatus => { });
             
-            RequestBanner();
+            this.RequestBanner();
             RequestInterstitial();
         }
         

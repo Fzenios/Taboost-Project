@@ -4885,7 +4885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productId: com.Fzenios.Taboost.AdsRemoval
+  productId: com.fzenios.taboost.adsremoval
   buttonType: 0
   consumePurchase: 1
   onPurchaseComplete:
@@ -6955,7 +6955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productId: com.Fzenios.Taboost.BuyNSFW
+  productId: com.fzenios.taboost.buynsfw
   buttonType: 0
   consumePurchase: 1
   onPurchaseComplete:
@@ -8774,7 +8774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &640427386
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12866,7 +12866,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1035592822
 RectTransform:
   m_ObjectHideFlags: 0
