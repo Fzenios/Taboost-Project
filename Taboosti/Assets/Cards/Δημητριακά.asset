@@ -18,4 +18,5 @@ MonoBehaviour:
   NoWord3: "\u0393\u03AC\u03BB\u03B1"
   NoWord4: "\u039C\u03C0\u03CC\u03BB"
   NoWord5: Kellogg's
+  CardCreator: Taboost
   difficulty: 1

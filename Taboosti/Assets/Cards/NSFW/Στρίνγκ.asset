@@ -18,4 +18,5 @@ MonoBehaviour:
   NoWord3: Brazil
   NoWord4: "\u0393\u03C5\u03BD\u03B1\u03AF\u03BA\u03B1"
   NoWord5: "\u0395\u03C1\u03C9\u03C4\u03B9\u03BA\u03CC"
+  CardCreator: Taboost
   difficulty: 3

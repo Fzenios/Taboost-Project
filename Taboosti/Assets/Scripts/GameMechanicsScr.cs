@@ -8,7 +8,7 @@ public class GameMechanicsScr : MonoBehaviour
 {
     public CardsTemp Cardstemp;
     public AllDataHere AllDataHere;
-    public Text MainWord, NoWord1, NoWord2, NoWord3, NoWord4, NoWord5;
+    public Text MainWord, NoWord1, NoWord2, NoWord3, NoWord4, NoWord5, SendersName;
     public Text ScoreTxt, TimerTxt, BeforeRoundTxt, RoundTxt;
     public Text TeamScore, GameScore, WinningTeam, WinningKeimeno, WinningTeamSpot1, WinningTeamSpot2, WinningTeamSpot3, WinningTeamSpot4;
     public Text TeamGameScore1, TeamGameScore2, TeamGameScore3, TeamGameScore4, FinalTeamGameScore1, FinalTeamGameScore2, FinalTeamGameScore3, FinalTeamGameScore4;
@@ -291,7 +291,7 @@ public class GameMechanicsScr : MonoBehaviour
     }
     public void WrongWord()
     {
-        if(CurrentScore>0)
+        //if(CurrentScore>0)
             CurrentScore -= 1;
 
         if(!EndOfTimeBool)
@@ -301,13 +301,10 @@ public class GameMechanicsScr : MonoBehaviour
     }
     public void Pass()
     { 
-        if(CurrentScore>0)
-        {
-            if(PassToLoseLeft >= PassToLose)
-                CurrentScore -= 1;
-            else
-                PassToLoseLeft++;
-        }
+        if(PassToLoseLeft >= PassToLose)
+            CurrentScore -= 1;
+        else
+            PassToLoseLeft++;
     
         if(!EndOfTimeBool)
             NewCard();
@@ -428,6 +425,7 @@ public class GameMechanicsScr : MonoBehaviour
         
         Cardstemp = CardDeck[0];
         MainWord.text = Cardstemp.MainWord;
+        SendersName.text = Cardstemp.CardCreator;
         NoWord1.text = Cardstemp.NoWord1;
         NoWord2.text = Cardstemp.NoWord2;
         NoWord3.text = Cardstemp.NoWord3;

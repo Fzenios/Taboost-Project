@@ -18,4 +18,5 @@ MonoBehaviour:
   NoWord3: "\u03A0\u03AC\u03BD\u03C4\u03B1"
   NoWord4: "\u03A0\u03BF\u03BB\u03B5\u03BC\u03B9\u03BA\u03AE"
   NoWord5: Shaolin
+  CardCreator: Taboost
   difficulty: 1

@@ -18,4 +18,5 @@ MonoBehaviour:
   NoWord3: Flush Royal
   NoWord4: "\u03A4\u03B6\u03CC\u03B3\u03BF\u03C2"
   NoWord5: "\u03A7\u03C1\u03AE\u03BC\u03B1\u03C4\u03B1"
+  CardCreator: Taboost
   difficulty: 0

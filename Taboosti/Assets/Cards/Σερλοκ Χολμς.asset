@@ -18,4 +18,5 @@ MonoBehaviour:
   NoWord3: Watson
   NoWord4: "\u03A4\u03B1\u03B9\u03BD\u03AF\u03B1"
   NoWord5: "\u039C\u03BF\u03C1\u03B9\u03AC\u03C1\u03C4\u03B7"
+  CardCreator: Taboost
   difficulty: 2

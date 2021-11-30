@@ -5,26 +5,27 @@ using UnityEngine.Purchasing;
 
 public class IAPScr : MonoBehaviour
 {
-    string AdsRemove = "com.fzenios.taboost.adsremoval";
+    //string AdsRemove = "com.fzenios.taboost.adsremoval";
     string NSFW = "com.fzenios.taboost.buynsfw";
-    public AllDataHere AllDataHere;
     public ExtraDataHere extradatahere;
     public SaveManager saveManager;
     public AdsScr adsScr;
     
     public void OnPurchaseComplete(Product product)
     {
-        if(product.definition.id == AdsRemove)
+        /*if(product.definition.id == AdsRemove)
         {
             extradatahere.dataForSaving.Ads = false;
             extradatahere.ButtonsCheck();
             saveManager.Save();
             adsScr.BannerDestroy();
             Debug.Log("efigan oi diafimiseis");
-        }
+        }*/
         if(product.definition.id == NSFW)
         {
             extradatahere.dataForSaving.NSFW = true;
+            extradatahere.dataForSaving.Ads = false;
+            adsScr.BannerDestroy();
             extradatahere.ButtonsCheck();
             saveManager.Save();
             Debug.Log("agorastike to nsfw");

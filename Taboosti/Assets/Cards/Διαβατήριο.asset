@@ -18,4 +18,5 @@ MonoBehaviour:
   NoWord3: "\u03A4\u03B1\u03C5\u03C4\u03CC\u03C4\u03B7\u03C4\u03B1"
   NoWord4: "\u0391\u03B5\u03C1\u03BF\u03B4\u03C1\u03CC\u03BC\u03B9\u03BF"
   NoWord5: "\u0388\u03BB\u03B5\u03B3\u03C7\u03BF\u03C2"
+  CardCreator: Taboost
   difficulty: 0

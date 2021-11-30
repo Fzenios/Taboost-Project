@@ -18,4 +18,5 @@ MonoBehaviour:
   NoWord3: "\u0391\u03B3\u03B3\u03BB\u03AF\u03B1"
   NoWord4: Henry
   NoWord5: "\u0386\u03B8\u03BB\u03B7\u03BC\u03B1"
+  CardCreator: Taboost
   difficulty: 2
