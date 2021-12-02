@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Purchasing;
+using UnityEngine.UI;
+
 
 public class IAPScr : MonoBehaviour
 {
@@ -10,7 +12,10 @@ public class IAPScr : MonoBehaviour
     public ExtraDataHere extradatahere;
     public SaveManager saveManager;
     public AdsScr adsScr;
-    
+    public Text text;
+    public Product nsfw;
+
+  
     public void OnPurchaseComplete(Product product)
     {
         /*if(product.definition.id == AdsRemove)
@@ -25,7 +30,7 @@ public class IAPScr : MonoBehaviour
         {
             extradatahere.dataForSaving.NSFW = true;
             extradatahere.dataForSaving.Ads = false;
-            adsScr.BannerDestroy();
+            //adsScr.BannerDestroy();
             extradatahere.ButtonsCheck();
             saveManager.Save();
             Debug.Log("agorastike to nsfw");
@@ -35,6 +40,9 @@ public class IAPScr : MonoBehaviour
     public void OnPurchaseFailed(Product product, PurchaseFailureReason reason)
     {
         Debug.Log("den egine h agora toy " + product.definition.id + " epeidi " + reason);
+        text.text = "den egine h agora toy " + product.definition.id + " epeidi " + reason;
     }
+    //public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
+
 
 }
