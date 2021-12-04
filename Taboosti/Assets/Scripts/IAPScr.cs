@@ -40,7 +40,23 @@ public class IAPScr : MonoBehaviour
     public void OnPurchaseFailed(Product product, PurchaseFailureReason reason)
     {
         Debug.Log("den egine h agora toy " + product.definition.id + " epeidi " + reason);
-        text.text = "den egine h agora toy " + product.definition.id + " epeidi " + reason;
+        
+        if(reason == PurchaseFailureReason.DuplicateTransaction)
+        {
+            //text.text = "den egine h agora toy " + product.definition.id + " epeidi " + reason;
+            extradatahere.dataForSaving.NSFW = true;
+            extradatahere.dataForSaving.Ads = false;
+            //adsScr.BannerDestroy();
+            extradatahere.ButtonsCheck();
+            saveManager.Save();
+        }
+        
+        /*if(reason == PurchaseFailureReason.PurchasingUnavailable)
+        {   
+            text.text = "egine to pay";
+        }*/
+
+        //text.text = "den egine h agora toy " + product.definition.id + " epeidi " + reason;
     }
     //public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
 

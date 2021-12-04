@@ -10,7 +10,7 @@ public class SaveManager : MonoBehaviour
     public void Save()
     {
         FileStream file = new FileStream(Application.persistentDataPath + "/Save.dat", FileMode.OpenOrCreate);
-        //FileStream file = new FileStream(Application.persistentDataPath + "/fortest.dat", FileMode.OpenOrCreate);
+        //FileStream file = new FileStream(Application.persistentDataPath + "/fortestttttt.dat", FileMode.OpenOrCreate);
         BinaryFormatter formatter = new BinaryFormatter();
                 
         formatter.Serialize (file, extraDataHere.dataForSaving);
@@ -23,7 +23,7 @@ public class SaveManager : MonoBehaviour
     public void Load()
     {
         FileStream file = new FileStream(Application.persistentDataPath + "/Save.dat", FileMode.Open);
-        //FileStream file = new FileStream(Application.persistentDataPath + "/fortest.dat", FileMode.Open);
+        //FileStream file = new FileStream(Application.persistentDataPath + "/fortestttttt.dat", FileMode.Open);
         BinaryFormatter formatter = new BinaryFormatter();
 
         extraDataHere.dataForSaving = (ExtraDataHere.DataForSaving)formatter.Deserialize(file);
