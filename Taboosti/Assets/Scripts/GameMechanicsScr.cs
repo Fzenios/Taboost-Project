@@ -43,6 +43,7 @@ public class GameMechanicsScr : MonoBehaviour
     public GameObject SoundOn, SoundOff;
     public SoundsScr soundsScr;
     bool TimerBool;
+    public AdsScr adsScr;
 
     
     void Awake() 
@@ -447,7 +448,8 @@ public class GameMechanicsScr : MonoBehaviour
             PauseWindow.SetActive(false);
     }
     public void GoToEndOfGame()
-    {        
+    {      
+        adsScr.LoadInterstitial();
         PassObj.SetActive(true);
         EndOfTimeObj.SetActive(false);
         CardsZero.SetActive(false);

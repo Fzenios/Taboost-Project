@@ -22,6 +22,7 @@ public class AdsScr : MonoBehaviour
             
             this.RequestBanner();
             RequestInterstitial();
+            //LoadInterstitial();
         }
         
     }
@@ -60,13 +61,13 @@ public class AdsScr : MonoBehaviour
             AdRequest request = new AdRequest.Builder().Build();
 
             this.interstitial.LoadAd(request);
-            ShowInterstitial();
+            //ShowInterstitial();
         }
-
     }
-    void ShowInterstitial()
+    public void ShowInterstitial()
     {
-        if (this.interstitial.IsLoaded()) {
+        if (this.interstitial.IsLoaded()) 
+        {
             this.interstitial.Show();
         }
     }   

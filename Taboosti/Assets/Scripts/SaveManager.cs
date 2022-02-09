@@ -15,8 +15,6 @@ public class SaveManager : MonoBehaviour
                 
         formatter.Serialize (file, extraDataHere.dataForSaving);
         
-        Debug.Log("egine to save");
-
         file.Close();
     }
 
@@ -27,8 +25,6 @@ public class SaveManager : MonoBehaviour
         BinaryFormatter formatter = new BinaryFormatter();
 
         extraDataHere.dataForSaving = (ExtraDataHere.DataForSaving)formatter.Deserialize(file);
-        
-        Debug.Log("egine to load");
 
         file.Close();
     }
