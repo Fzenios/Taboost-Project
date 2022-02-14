@@ -28,7 +28,7 @@ public class AdsScr : MonoBehaviour
     }
     void RequestBanner()
     {
-        bannerView = new BannerView(bannerID, AdSize.SmartBanner, AdPosition.Bottom);
+        bannerView = new BannerView(bannerID, AdSize.Banner , AdPosition.Bottom);
         
         this.bannerView.OnAdLoaded += this.HandleOnAdLoaded;
         this.bannerView.OnAdFailedToLoad += this.HandleOnAdFailedToLoad;
