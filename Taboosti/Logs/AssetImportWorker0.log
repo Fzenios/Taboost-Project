@@ -1,0 +1,2248 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/Taboost-Project/Taboosti
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58102
+Successfully changed project path to: D:/unity/Taboost-Project/Taboosti
+D:/unity/Taboost-Project/Taboosti
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/Taboost-Project/Taboosti/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002249 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.666 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 2724.
+Total: 5.037500 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.082100 ms MarkObjects: 4.638600 ms  DeleteObjects: 0.113500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Cards/Ανατινάζω.asset
+  artifactKey: Guid(d434da5683d972945a2d878320b6d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανατινάζω.asset using Guid(d434da5683d972945a2d878320b6d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4d412b300382aaa7a373242258a0d3') in 0.039676 seconds
+  Import took 0.042942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Cards/Αναπάντητη.asset
+  artifactKey: Guid(28d7154c5e09d004a9290b4e5ea2cc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αναπάντητη.asset using Guid(28d7154c5e09d004a9290b4e5ea2cc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fec4b5a64615e296786e5cfbaaefc1') in 0.004423 seconds
+  Import took 0.006751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Cards/Αναπνευστήρας.asset
+  artifactKey: Guid(2fac7dee9c117d44dbe1589b034745e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αναπνευστήρας.asset using Guid(2fac7dee9c117d44dbe1589b034745e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317fb8af944e14d34abcdc418ba54ed6') in 0.003688 seconds
+  Import took 0.005925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.274072 seconds.
+  path: Assets/Cards/Ανεμιστήρας.asset
+  artifactKey: Guid(9bfa21236e31bec45b5601e9122c3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανεμιστήρας.asset using Guid(9bfa21236e31bec45b5601e9122c3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b567a8fd024ec2e99f0535904e4aee') in 0.003954 seconds
+  Import took 0.020128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551212 seconds.
+  path: Assets/Cards/Ανεμοβλογιά.asset
+  artifactKey: Guid(da362598e6d93f24f91533fa3f6192f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανεμοβλογιά.asset using Guid(da362598e6d93f24f91533fa3f6192f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7339b95e589e8d6f1de541f7e280be') in 0.004114 seconds
+  Import took 0.006995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.045238 seconds.
+  path: Assets/Cards/Αγκαλιά.asset
+  artifactKey: Guid(b23b1f1856333314386669ee3ef74ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αγκαλιά.asset using Guid(b23b1f1856333314386669ee3ef74ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827ec1f625da8b181985c29f90a186cf') in 0.003863 seconds
+  Import took 0.018666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.053671 seconds.
+  path: Assets/Cards/Αγροικία.asset
+  artifactKey: Guid(f872a7590a678084885168a95a449f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αγροικία.asset using Guid(f872a7590a678084885168a95a449f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e0943ceaed7ab7e4bf6c3eea960c44') in 0.003937 seconds
+  Import took 0.006617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388275 seconds.
+  path: Assets/Cards/Αδάμ.asset
+  artifactKey: Guid(6c6c2d459cc08a440a9f4739b976622c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αδάμ.asset using Guid(6c6c2d459cc08a440a9f4739b976622c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f002543dd3d4eaaab3c9edb4424050') in 0.003868 seconds
+  Import took 0.020327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303596 seconds.
+  path: Assets/Cards/Αδιάβροχο.asset
+  artifactKey: Guid(4b0e529e025d713488ec5d62d287069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αδιάβροχο.asset using Guid(4b0e529e025d713488ec5d62d287069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d82c4626827752e275b7f8efedf71') in 0.004456 seconds
+  Import took 0.007325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369763 seconds.
+  path: Assets/Cards/Αεροδρόμιο.asset
+  artifactKey: Guid(097d0a9cd48d6004a81d7555263d8583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αεροδρόμιο.asset using Guid(097d0a9cd48d6004a81d7555263d8583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e140d8b1040e1c29bb13f605ea35fb') in 0.004161 seconds
+  Import took 0.030150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315761 seconds.
+  path: Assets/Cards/Αεροσκάφος.asset
+  artifactKey: Guid(a2ea9dcd859122344924ff69bc561a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αεροσκάφος.asset using Guid(a2ea9dcd859122344924ff69bc561a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2701919d9cd36c62c1932a580aad5aa1') in 0.004253 seconds
+  Import took 0.006991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373831 seconds.
+  path: Assets/Cards/Αερόστατο.asset
+  artifactKey: Guid(27c60ba0528329b4aac7f7a9c7948b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αερόστατο.asset using Guid(27c60ba0528329b4aac7f7a9c7948b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a318a8b41c99f3f26a1934a816a41725') in 0.004011 seconds
+  Import took 0.007221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308714 seconds.
+  path: Assets/Cards/Αετός.asset
+  artifactKey: Guid(67aeac9fe81c76e4e9cfcb84b55bfa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αετός.asset using Guid(67aeac9fe81c76e4e9cfcb84b55bfa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829e5ca472143db27eda84e3c8366318') in 0.003842 seconds
+  Import took 0.006678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321223 seconds.
+  path: Assets/Cards/Αθάνατος.asset
+  artifactKey: Guid(ec63f04f8da8a8c4082796e0eca8f2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αθάνατος.asset using Guid(ec63f04f8da8a8c4082796e0eca8f2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6428d167114adf9881b9b7cadd6cc386') in 0.004035 seconds
+  Import took 0.006938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363018 seconds.
+  path: Assets/Cards/Αθήνα.asset
+  artifactKey: Guid(bbb6f5a0057cee744a960f12192b9003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αθήνα.asset using Guid(bbb6f5a0057cee744a960f12192b9003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7155dadab7e6ee97dfe1ec3f9dd50dec') in 0.003916 seconds
+  Import took 0.019151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.332561 seconds.
+  path: Assets/Cards/Αιώρα.asset
+  artifactKey: Guid(6a39934d19d37464fa346062764e43e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αιώρα.asset using Guid(6a39934d19d37464fa346062764e43e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de5c24e3e82b6f97c848fb3e62b988c') in 0.004258 seconds
+  Import took 0.007569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.397191 seconds.
+  path: Assets/Cards/Ακορντεόν.asset
+  artifactKey: Guid(106470439b73a0f41baea4a47ceb2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ακορντεόν.asset using Guid(106470439b73a0f41baea4a47ceb2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7106cb2a7a3c0246956deca28caa9c5a') in 0.004076 seconds
+  Import took 0.006801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289897 seconds.
+  path: Assets/Cards/Ακουστικά.asset
+  artifactKey: Guid(6a2bb0979850e7f40a70215a99e767d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ακουστικά.asset using Guid(6a2bb0979850e7f40a70215a99e767d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47662364de530f5a163d9d4abd88b7f4') in 0.003809 seconds
+  Import took 0.006627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394400 seconds.
+  path: Assets/Cards/Ακρόπολη.asset
+  artifactKey: Guid(ba33ac6118d8eb541be2ea3499816ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ακρόπολη.asset using Guid(ba33ac6118d8eb541be2ea3499816ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55930a4323f2f2c0b3130f1c0646b77d') in 0.003974 seconds
+  Import took 0.006732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315702 seconds.
+  path: Assets/Cards/Ακτή.asset
+  artifactKey: Guid(e2dc25c1554042846b9affdfe4198659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ακτή.asset using Guid(e2dc25c1554042846b9affdfe4198659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b41e4106d89936afdfa6ccec646cd47') in 0.003808 seconds
+  Import took 0.006430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.338942 seconds.
+  path: Assets/Cards/Ακτίνα.asset
+  artifactKey: Guid(bf964acdaf82a864681d473eb0e16fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ακτίνα.asset using Guid(bf964acdaf82a864681d473eb0e16fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bde0ab357b53b12abe036449ce6841') in 0.003887 seconds
+  Import took 0.006525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.334789 seconds.
+  path: Assets/Cards/Ακυρώνω.asset
+  artifactKey: Guid(ec86bc3df2173404d9007c6d8b0913e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ακυρώνω.asset using Guid(ec86bc3df2173404d9007c6d8b0913e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9971957ad71e0c55cdf012b638f14182') in 0.006932 seconds
+  Import took 0.009618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331088 seconds.
+  path: Assets/Cards/Ακόντιο.asset
+  artifactKey: Guid(f5a9a197a5820a148846d4d6dece69e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ακόντιο.asset using Guid(f5a9a197a5820a148846d4d6dece69e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4c79b331a0d2b64033fbfb3ba0776e') in 0.014423 seconds
+  Import took 0.017144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323845 seconds.
+  path: Assets/Cards/Αλ Καπόνε.asset
+  artifactKey: Guid(012819169b1ce6d4db4bc3eb9ec9e8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλ Καπόνε.asset using Guid(012819169b1ce6d4db4bc3eb9ec9e8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3fc419c5cb98fda3d74dc05d841d9a') in 0.003873 seconds
+  Import took 0.044010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.276504 seconds.
+  path: Assets/Cards/Αλείφω.asset
+  artifactKey: Guid(52b2a4739269b7f46b428588be61f32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλείφω.asset using Guid(52b2a4739269b7f46b428588be61f32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297e526dfceec49add35777446577824') in 0.003854 seconds
+  Import took 0.025190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.339621 seconds.
+  path: Assets/Cards/Αλεξίπτωτο.asset
+  artifactKey: Guid(4af5ece8ec4a413499ec92e08bc45472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλεξίπτωτο.asset using Guid(4af5ece8ec4a413499ec92e08bc45472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e55d3a5bf4e1afd63b76fd4668c945') in 0.003984 seconds
+  Import took 0.006812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344494 seconds.
+  path: Assets/Cards/Αλεπού.asset
+  artifactKey: Guid(41be1ad150ad56a488c9bbba4c989a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλεπού.asset using Guid(41be1ad150ad56a488c9bbba4c989a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e431c12ddea0845eb306b3d2af16aa') in 0.003880 seconds
+  Import took 0.006533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.356683 seconds.
+  path: Assets/Cards/Αλιγάτορας.asset
+  artifactKey: Guid(3c36a89ee7707de46bbb726e629b1252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλιγάτορας.asset using Guid(3c36a89ee7707de46bbb726e629b1252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6c3cfbdae9c9ce68c200bc23deca9b') in 0.003921 seconds
+  Import took 0.016952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.334468 seconds.
+  path: Assets/Cards/Αλλεργία.asset
+  artifactKey: Guid(105122fcbf531df4b9232d7ca69e0023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλλεργία.asset using Guid(105122fcbf531df4b9232d7ca69e0023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237f9497442627d910620d0c55484105') in 0.003903 seconds
+  Import took 0.006527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331581 seconds.
+  path: Assets/Cards/Αλλόκοτος.asset
+  artifactKey: Guid(91bf96f34c12d044ead7c2d040e40559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλλόκοτος.asset using Guid(91bf96f34c12d044ead7c2d040e40559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b059b7f5713669d6fce9e6334c4b68') in 0.003729 seconds
+  Import took 0.022501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308985 seconds.
+  path: Assets/Cards/Αλυσίδες Χιονιού.asset
+  artifactKey: Guid(f63d05158e52b3a4db572795fbcfc270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αλυσίδες Χιονιού.asset using Guid(f63d05158e52b3a4db572795fbcfc270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec50739055e1bd9460dd386843e923ba') in 0.003807 seconds
+  Import took 0.006490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.603356 seconds.
+  path: Assets/Cards/Αμαζόνιος.asset
+  artifactKey: Guid(397ecc5d065a58640a47d9a403f69465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αμαζόνιος.asset using Guid(397ecc5d065a58640a47d9a403f69465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07c3c7897199288dedac2b7edd84ab2') in 0.003752 seconds
+  Import took 0.006491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379851 seconds.
+  path: Assets/Cards/Αμνησία.asset
+  artifactKey: Guid(f2e9ec969a938774c813a86587d5c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αμνησία.asset using Guid(f2e9ec969a938774c813a86587d5c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec76b10bbca10848b6dfcc1904b72ee4') in 0.003862 seconds
+  Import took 0.006580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319073 seconds.
+  path: Assets/Cards/Αμπρααμ Λινκολν.asset
+  artifactKey: Guid(a73e72ae6d5f4ed499e28c0036c1ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αμπρααμ Λινκολν.asset using Guid(a73e72ae6d5f4ed499e28c0036c1ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5674487821e7671573758033589382c') in 0.003944 seconds
+  Import took 0.028858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.296222 seconds.
+  path: Assets/Cards/Αμυγδαλές.asset
+  artifactKey: Guid(6a0856da6545f5945a85713880fe9db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αμυγδαλές.asset using Guid(6a0856da6545f5945a85713880fe9db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b486800cf8fa33b6ed7feb76ac6ba479') in 0.003970 seconds
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.327383 seconds.
+  path: Assets/Cards/Ανανάς.asset
+  artifactKey: Guid(5a459402c30d14342a7c09f41ca46c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανανάς.asset using Guid(5a459402c30d14342a7c09f41ca46c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882df20240a9638b1453d3666effc501') in 0.003873 seconds
+  Import took 0.006470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.958115 seconds.
+  path: Assets/Cards/Ανεμοστρόβιλος.asset
+  artifactKey: Guid(8914c1ad81bc56749bd85a85f37db87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανεμοστρόβιλος.asset using Guid(8914c1ad81bc56749bd85a85f37db87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b389065c5ca25540b3f615644dc46987') in 0.003892 seconds
+  Import took 0.012693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.297946 seconds.
+  path: Assets/Cards/Ανεμόπτερο.asset
+  artifactKey: Guid(9ccb7bd8a28652b488644f3dc2881e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανεμόπτερο.asset using Guid(9ccb7bd8a28652b488644f3dc2881e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c33e49f107e44419e119c20b7dc696') in 0.003812 seconds
+  Import took 0.007114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323495 seconds.
+  path: Assets/Cards/Ανεπιθύμητα.asset
+  artifactKey: Guid(edb24e785fd782340a219695b365aa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανεπιθύμητα.asset using Guid(edb24e785fd782340a219695b365aa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8537ac76330c69aff2175b7845558e86') in 0.003728 seconds
+  Import took 0.023539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292056 seconds.
+  path: Assets/Cards/Αντίδοτο.asset
+  artifactKey: Guid(f54ccd9687158204eaa0559a4ed6fe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αντίδοτο.asset using Guid(f54ccd9687158204eaa0559a4ed6fe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620653ed7e7bed041cc44e234f56defb') in 0.003868 seconds
+  Import took 0.022769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.328687 seconds.
+  path: Assets/Cards/Αντίκα.asset
+  artifactKey: Guid(1fe53df559dbec14d919afa2bbd35c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αντίκα.asset using Guid(1fe53df559dbec14d919afa2bbd35c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e93f2e586fc154b4bd000aa5df7fd4') in 0.003784 seconds
+  Import took 0.006489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345425 seconds.
+  path: Assets/Cards/Ανταρκτική.asset
+  artifactKey: Guid(f5e7c849fad4c6e41a8c15c2780bfea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ανταρκτική.asset using Guid(f5e7c849fad4c6e41a8c15c2780bfea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec094c7cccff4bcf6a635dd02ceed1d') in 0.003857 seconds
+  Import took 0.006505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314716 seconds.
+  path: Assets/Cards/Αντζούγια.asset
+  artifactKey: Guid(04c49305f877b6341bdbddf69f19503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αντζούγια.asset using Guid(04c49305f877b6341bdbddf69f19503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7939f2898137eb3772ba5a00ecceff5f') in 0.003794 seconds
+  Import took 0.006414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319858 seconds.
+  path: Assets/Cards/Απαγωγή.asset
+  artifactKey: Guid(f6ed3cb3b2dd395418531f99f81959fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Απαγωγή.asset using Guid(f6ed3cb3b2dd395418531f99f81959fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e2932af05d4c489819072cd3cd9284') in 0.003835 seconds
+  Import took 0.006469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.299223 seconds.
+  path: Assets/Cards/Απιστία.asset
+  artifactKey: Guid(fadb1b5dcc63a144f813232e45cf8c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Απιστία.asset using Guid(fadb1b5dcc63a144f813232e45cf8c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c208aaa1f2d9c9d5777d307b9356298a') in 0.003819 seconds
+  Import took 0.023603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311783 seconds.
+  path: Assets/Cards/Απλό.asset
+  artifactKey: Guid(3bf9d43680e94264e8c3b85c77ab9d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Απλό.asset using Guid(3bf9d43680e94264e8c3b85c77ab9d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd013e3ea2364eb6a30c20c225afac4') in 0.004655 seconds
+  Import took 0.007634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.306190 seconds.
+  path: Assets/Cards/Αποθήκη.asset
+  artifactKey: Guid(144d0b03082154b48aee83bc6aaa2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αποθήκη.asset using Guid(144d0b03082154b48aee83bc6aaa2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f214240c10ad676574b7d28cb2fc0f81') in 0.004053 seconds
+  Import took 0.006812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.327721 seconds.
+  path: Assets/Cards/Αποσκευές.asset
+  artifactKey: Guid(6dd13c19b555a9147a3e89cec1f9e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αποσκευές.asset using Guid(6dd13c19b555a9147a3e89cec1f9e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479b0adbc66cbfd3cf97ba8f26f91bf6') in 0.003866 seconds
+  Import took 0.006481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329535 seconds.
+  path: Assets/Cards/Αποσμήτικό.asset
+  artifactKey: Guid(a1cbfad694cd5544ea7024686f13c985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αποσμήτικό.asset using Guid(a1cbfad694cd5544ea7024686f13c985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac6a73ec54a49fd8827e701c3cfcb4b') in 0.004036 seconds
+  Import took 0.006798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.288906 seconds.
+  path: Assets/Cards/Αποτύπωμα.asset
+  artifactKey: Guid(9cb9e9f3dac0ea741ac050f61ce20e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αποτύπωμα.asset using Guid(9cb9e9f3dac0ea741ac050f61ce20e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fe529107a84b7d6d2abc36ce0c6da2') in 0.003997 seconds
+  Import took 0.006636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308903 seconds.
+  path: Assets/Cards/Απόγευμα.asset
+  artifactKey: Guid(6e75db5c4a2fdcf469debd163b47e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Απόγευμα.asset using Guid(6e75db5c4a2fdcf469debd163b47e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5d98ae4bb0c7002f319509a4a00007') in 0.004452 seconds
+  Import took 0.015554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308368 seconds.
+  path: Assets/Cards/Αράχνη.asset
+  artifactKey: Guid(e94abf6d26a58e44da10c5fee4ad1fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αράχνη.asset using Guid(e94abf6d26a58e44da10c5fee4ad1fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d274faeaed8c677079f1ab9ca6ab2c4') in 0.004042 seconds
+  Import took 0.006877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300540 seconds.
+  path: Assets/Cards/Αρένα.asset
+  artifactKey: Guid(3c3ea5af62a1a084e874801aa3f38eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αρένα.asset using Guid(3c3ea5af62a1a084e874801aa3f38eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de0ebfeb28cf572554ef516e84265ce') in 0.004154 seconds
+  Import took 0.007095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314722 seconds.
+  path: Assets/Cards/Αργά.asset
+  artifactKey: Guid(4922cfbd847e1a943aa2b84c5c2fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αργά.asset using Guid(4922cfbd847e1a943aa2b84c5c2fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5e350d25f67c67e15a6a23b6c14506') in 0.003796 seconds
+  Import took 0.006439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363628 seconds.
+  path: Assets/Cards/Αρκουδάκι.asset
+  artifactKey: Guid(ccdc78c053a8d7348ba28efd0f141490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αρκουδάκι.asset using Guid(ccdc78c053a8d7348ba28efd0f141490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc7f08e3545113537bd2a96b7f8ccfb') in 0.003784 seconds
+  Import took 0.006421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.309796 seconds.
+  path: Assets/Cards/Αρνητικός.asset
+  artifactKey: Guid(b720bf8046b1b4d4a8a48c879c588ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αρνητικός.asset using Guid(b720bf8046b1b4d4a8a48c879c588ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195f868e83b975f0fbf758ce1e943daf') in 0.003824 seconds
+  Import took 0.006445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.338537 seconds.
+  path: Assets/Cards/Αρσεναλ.asset
+  artifactKey: Guid(da7e1bb3eeed4a9499358e19cbc4099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αρσεναλ.asset using Guid(da7e1bb3eeed4a9499358e19cbc4099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fe9b5ccd8ef131ade6780df58ce5c4') in 0.003934 seconds
+  Import took 0.006589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329200 seconds.
+  path: Assets/Cards/Αρσενικό.asset
+  artifactKey: Guid(1d67f74beeecd964989b5357991d8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αρσενικό.asset using Guid(1d67f74beeecd964989b5357991d8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2ffd45f68a5af94bc8dc7a611203a7') in 0.003857 seconds
+  Import took 0.006664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.260819 seconds.
+  path: Assets/Cards/Αρχαίος.asset
+  artifactKey: Guid(b1f2b49e8aaacff41a7f8e7dc0aa9ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αρχαίος.asset using Guid(b1f2b49e8aaacff41a7f8e7dc0aa9ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b495099ea85e7e403c1e06a2beed849') in 0.003827 seconds
+  Import took 0.006525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324338 seconds.
+  path: Assets/Cards/Αρχιτέκτονας.asset
+  artifactKey: Guid(3044541f9767f5641bd878720bd27539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αρχιτέκτονας.asset using Guid(3044541f9767f5641bd878720bd27539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6a4ecb499357cf0892ca0e7ea587fb') in 0.003899 seconds
+  Import took 0.006719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.312940 seconds.
+  path: Assets/Cards/Ασβός.asset
+  artifactKey: Guid(45e5a5b0b28c12940b21a74512d09bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ασβός.asset using Guid(45e5a5b0b28c12940b21a74512d09bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaa48828a7d4764c3bb40af082268e2') in 0.003886 seconds
+  Import took 0.017392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.288760 seconds.
+  path: Assets/Cards/Ασθενής.asset
+  artifactKey: Guid(37a5beb583d6df742aa8f4df933c2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ασθενής.asset using Guid(37a5beb583d6df742aa8f4df933c2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d573cb8f3f865b75da4f44f77ef060') in 0.004147 seconds
+  Import took 0.006901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319274 seconds.
+  path: Assets/Cards/Ασθενοφόρο.asset
+  artifactKey: Guid(9e63b3d681fe61745a9e75d1e7d87e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ασθενοφόρο.asset using Guid(9e63b3d681fe61745a9e75d1e7d87e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a98808d46175c250c0a25249c25f3b') in 0.003937 seconds
+  Import took 0.006530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.318698 seconds.
+  path: Assets/Cards/Ασπιρίνη.asset
+  artifactKey: Guid(775b22c23945163479a7298db2cfe5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ασπιρίνη.asset using Guid(775b22c23945163479a7298db2cfe5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbfaf1f604cd15a5e05c346127db5cf') in 0.003772 seconds
+  Import took 0.019016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316846 seconds.
+  path: Assets/Cards/Αστρολογία.asset
+  artifactKey: Guid(0a3d1686a2dbb9f4e9b5d9768f94ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αστρολογία.asset using Guid(0a3d1686a2dbb9f4e9b5d9768f94ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f8247ee3e2906a68b993c6dba2acda') in 0.003921 seconds
+  Import took 0.006519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317059 seconds.
+  path: Assets/Cards/Αστροναύτης.asset
+  artifactKey: Guid(22c8fbda6997837429ec17ec199e648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αστροναύτης.asset using Guid(22c8fbda6997837429ec17ec199e648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da2ea7f93c8f01f58e4def7503820e7') in 0.003804 seconds
+  Import took 0.006574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301283 seconds.
+  path: Assets/Cards/Αστυνόμος.asset
+  artifactKey: Guid(f261651f9aa196f4ba49e6effd30215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αστυνόμος.asset using Guid(f261651f9aa196f4ba49e6effd30215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5db14191e76ac218018a76a91556e1') in 0.003891 seconds
+  Import took 0.012178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.318309 seconds.
+  path: Assets/Cards/Ασύρματο.asset
+  artifactKey: Guid(dc981f8113426fd44aa52f323e997ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ασύρματο.asset using Guid(dc981f8113426fd44aa52f323e997ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387ffb04cc078884714927cf20ad24dd') in 0.003841 seconds
+  Import took 0.006685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329674 seconds.
+  path: Assets/Cards/Ατζέντα.asset
+  artifactKey: Guid(29f64c70eb50af84fa04c88b203db397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ατζέντα.asset using Guid(29f64c70eb50af84fa04c88b203db397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e946a3718b0343e911bb3d06a5db7e') in 0.004014 seconds
+  Import took 0.006676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323385 seconds.
+  path: Assets/Cards/Ατλαντικός.asset
+  artifactKey: Guid(bbfa502c4f3c10442b3ce62751c0cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ατλαντικός.asset using Guid(bbfa502c4f3c10442b3ce62751c0cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76a838200d5be5b6eefbb1e1908251a') in 0.003893 seconds
+  Import took 0.006577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336126 seconds.
+  path: Assets/Cards/Ατύχημα.asset
+  artifactKey: Guid(45d0b6faf394c8d42b046dfda3b3ffd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ατύχημα.asset using Guid(45d0b6faf394c8d42b046dfda3b3ffd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099a4740a6c07fb4dbce27ce83eff7fa') in 0.003799 seconds
+  Import took 0.006404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314933 seconds.
+  path: Assets/Cards/Αυλόπορτα.asset
+  artifactKey: Guid(220fd21a6cd957d4d9e7ca785ae7553c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αυλόπορτα.asset using Guid(220fd21a6cd957d4d9e7ca785ae7553c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2feba2f206b7b198f2967020a416d3f') in 0.003837 seconds
+  Import took 0.006491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314375 seconds.
+  path: Assets/Cards/Αυστραλία.asset
+  artifactKey: Guid(7780765950ea28b4cae7a7dcb6fc59a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αυστραλία.asset using Guid(7780765950ea28b4cae7a7dcb6fc59a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151762dfc276045ae26d4ba446d3e015') in 0.004086 seconds
+  Import took 0.006832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984089 seconds.
+  path: Assets/Cards/Αυτί.asset
+  artifactKey: Guid(819e8fa75bddfa448a96e363b6d62130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αυτί.asset using Guid(819e8fa75bddfa448a96e363b6d62130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e95a4d11594fdf8909b624b19f706c') in 0.003841 seconds
+  Import took 0.006437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594113 seconds.
+  path: Assets/Cards/Αυτοκίνητο.asset
+  artifactKey: Guid(76b4635ba890dbb46ac9eda772c27169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αυτοκίνητο.asset using Guid(76b4635ba890dbb46ac9eda772c27169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0671a03a3e887fc04224485f3fe53aa2') in 0.004099 seconds
+  Import took 0.006736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.216287 seconds.
+  path: Assets/Cards/Αφαλός.asset
+  artifactKey: Guid(dcd8053cf3b718743839f6319d5cb0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αφαλός.asset using Guid(dcd8053cf3b718743839f6319d5cb0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d003df587ea0e100aff994570dacdf1') in 0.006300 seconds
+  Import took 0.009185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234111 seconds.
+  path: Assets/Cards/Αφροδίτη.asset
+  artifactKey: Guid(573ecf993d4104343ac0e5c6fcf6bac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αφροδίτη.asset using Guid(573ecf993d4104343ac0e5c6fcf6bac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3589771ede66956c228455e6ce0a390a') in 0.003864 seconds
+  Import took 0.006507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.328340 seconds.
+  path: Assets/Cards/Αχιλλέας.asset
+  artifactKey: Guid(05e74fe457508f3499429d37e6b375d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αχιλλέας.asset using Guid(05e74fe457508f3499429d37e6b375d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dca1b49dd1b9428caff01b4d028a4d') in 0.004031 seconds
+  Import took 0.006746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248779 seconds.
+  path: Assets/Cards/Αχλάδια.asset
+  artifactKey: Guid(479e4225e6eea524cab04bdbff39050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αχλάδια.asset using Guid(479e4225e6eea524cab04bdbff39050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6c1b4fd4085722333dca1a674b3e88') in 0.003845 seconds
+  Import took 0.006486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219613 seconds.
+  path: Assets/Cards/Αχυρώνας.asset
+  artifactKey: Guid(a0f679a1de8fb334e9aa67194d96da58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αχυρώνας.asset using Guid(a0f679a1de8fb334e9aa67194d96da58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36998dc52efae5384c17824d0200c0a8') in 0.003917 seconds
+  Import took 0.006588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248669 seconds.
+  path: Assets/Cards/Αϊνστάιν.asset
+  artifactKey: Guid(6708fd2c7d484774c8c695396a3686d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αϊνστάιν.asset using Guid(6708fd2c7d484774c8c695396a3686d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182065c4c9385a608fa3bc182ce65664') in 0.004179 seconds
+  Import took 0.006846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233296 seconds.
+  path: Assets/Cards/Αύπνία.asset
+  artifactKey: Guid(1fe4147a4ba6b9e4c9c2b4261acd9537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Αύπνία.asset using Guid(1fe4147a4ba6b9e4c9c2b4261acd9537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ed641078fc24db243314c789a235ee') in 0.003944 seconds
+  Import took 0.006820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218678 seconds.
+  path: Assets/Cards/Βάζο.asset
+  artifactKey: Guid(b541ce9816d44d144b467c3e1f98c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βάζο.asset using Guid(b541ce9816d44d144b467c3e1f98c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58f72303688ad1a2efbf16808c6ec3b') in 0.003868 seconds
+  Import took 0.006724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.239495 seconds.
+  path: Assets/Cards/Βάτραχος.asset
+  artifactKey: Guid(0863f559be4f82b40ac16c859526e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βάτραχος.asset using Guid(0863f559be4f82b40ac16c859526e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5917f9457f20bc2fc0ba4e5ca22dec') in 0.003813 seconds
+  Import took 0.006763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223139 seconds.
+  path: Assets/Cards/Βάφω.asset
+  artifactKey: Guid(aade868eb7dcbb348bd590a94bcc0fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βάφω.asset using Guid(aade868eb7dcbb348bd590a94bcc0fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad2767849e48868ac5a15beef380d2e') in 0.003898 seconds
+  Import took 0.006598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234166 seconds.
+  path: Assets/Cards/Βήμα.asset
+  artifactKey: Guid(d90e3e3c9a3e31a48bfb111c1f658968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βήμα.asset using Guid(d90e3e3c9a3e31a48bfb111c1f658968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b71fe3b5d98dc1b9b647ab372a75c82') in 0.004949 seconds
+  Import took 0.008217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231763 seconds.
+  path: Assets/Cards/Βήχας.asset
+  artifactKey: Guid(00137491fb987af4d99e61719afce452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βήχας.asset using Guid(00137491fb987af4d99e61719afce452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c4fc63184504bb99a3b09a04ae7d38') in 0.003791 seconds
+  Import took 0.006489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219747 seconds.
+  path: Assets/Cards/Βαμβάκι.asset
+  artifactKey: Guid(14cad48e4dc0fbd4baf05154a7c17d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βαμβάκι.asset using Guid(14cad48e4dc0fbd4baf05154a7c17d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3ef808837591b7b109f918af03b1f7') in 0.003883 seconds
+  Import took 0.006421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221308 seconds.
+  path: Assets/Cards/Βαρέλι.asset
+  artifactKey: Guid(4e3c76c023ee8d845999295999a68757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βαρέλι.asset using Guid(4e3c76c023ee8d845999295999a68757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344e37e842338c7f1186ee594d213bd5') in 0.003867 seconds
+  Import took 0.006514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231010 seconds.
+  path: Assets/Cards/Βασίλισσα.asset
+  artifactKey: Guid(73c9517343aad12489ed8382e41010ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βασίλισσα.asset using Guid(73c9517343aad12489ed8382e41010ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ce6cd854194ba647c7d2fe57467ab3') in 0.003855 seconds
+  Import took 0.028614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213666 seconds.
+  path: Assets/Cards/Βασιλόπιτα.asset
+  artifactKey: Guid(cac9c6648a9f1e54d9448cba3173ea75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βασιλόπιτα.asset using Guid(cac9c6648a9f1e54d9448cba3173ea75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5770c18d5ee03a766ee5e62a2ee7246c') in 0.003833 seconds
+  Import took 0.006436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236678 seconds.
+  path: Assets/Cards/Βελανιδιά.asset
+  artifactKey: Guid(d00d1242451f5984c8eda1b80416b012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βελανιδιά.asset using Guid(d00d1242451f5984c8eda1b80416b012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3762d087c006d8589c349c6fa555ab') in 0.003862 seconds
+  Import took 0.017695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.909735 seconds.
+  path: Assets/Cards/Βελονισμός.asset
+  artifactKey: Guid(b6d48d7181796d34aa18e3b913e26474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βελονισμός.asset using Guid(b6d48d7181796d34aa18e3b913e26474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c1922bae58bd47b2af085802a49080') in 0.003864 seconds
+  Import took 0.006528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226882 seconds.
+  path: Assets/Cards/Βελούδο.asset
+  artifactKey: Guid(aeff6f0824e7da44fae667711d1ce7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βελούδο.asset using Guid(aeff6f0824e7da44fae667711d1ce7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4550d8fa3e2cf1c6e46087e7a7642847') in 0.003939 seconds
+  Import took 0.006652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212975 seconds.
+  path: Assets/Cards/Βελόνα.asset
+  artifactKey: Guid(f4a9f828bd5c1214a85c7fd5e66ffb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βελόνα.asset using Guid(f4a9f828bd5c1214a85c7fd5e66ffb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d945358f5827709b236cc6fbffd3607') in 0.003916 seconds
+  Import took 0.006617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200314 seconds.
+  path: Assets/Cards/Βενετία.asset
+  artifactKey: Guid(59bfd2c2f8d9d0b4caea070157bb6987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βενετία.asset using Guid(59bfd2c2f8d9d0b4caea070157bb6987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f854668a55e3444a889d96dffc58de94') in 0.004009 seconds
+  Import took 0.018239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196295 seconds.
+  path: Assets/Cards/Βεντέτα.asset
+  artifactKey: Guid(db7f0214770a24c4397dc44867108a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βεντέτα.asset using Guid(db7f0214770a24c4397dc44867108a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4344c6df33608c06f3f4882dcfaa4f') in 0.003783 seconds
+  Import took 0.006389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201559 seconds.
+  path: Assets/Cards/Βεράντα.asset
+  artifactKey: Guid(99abdcff62d0da346ab00bfe9220418f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βεράντα.asset using Guid(99abdcff62d0da346ab00bfe9220418f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9451e734770c4bf4eec137dcab6154d') in 0.003854 seconds
+  Import took 0.006476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219511 seconds.
+  path: Assets/Cards/Βιβλίο.asset
+  artifactKey: Guid(67e4b1b2468247c4a87065d9ecc9e894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βιβλίο.asset using Guid(67e4b1b2468247c4a87065d9ecc9e894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974e770e399023a4c27dc24a17848a8d') in 0.003856 seconds
+  Import took 0.006487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223518 seconds.
+  path: Assets/Cards/Βιβλιοθήκη.asset
+  artifactKey: Guid(c9761eb1796f24848b964e5ac0627856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βιβλιοθήκη.asset using Guid(c9761eb1796f24848b964e5ac0627856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b720cb623062be3448c34062ac3ad7') in 0.003937 seconds
+  Import took 0.006597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214305 seconds.
+  path: Assets/Cards/Βιολί.asset
+  artifactKey: Guid(ac35fa1e17e0af64b8476a2256666523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βιολί.asset using Guid(ac35fa1e17e0af64b8476a2256666523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb4b856fb632e027776071371f64579') in 0.003827 seconds
+  Import took 0.006493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223552 seconds.
+  path: Assets/Cards/Βλεφαρίδα.asset
+  artifactKey: Guid(aceb11334d2e47e4783040136888db96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βλεφαρίδα.asset using Guid(aceb11334d2e47e4783040136888db96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccfb3c4a7f323aff4b39369a1b7826f') in 0.003769 seconds
+  Import took 0.006485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237620 seconds.
+  path: Assets/Cards/Βουβάλι.asset
+  artifactKey: Guid(b41e6bf99c977784290cd4db14b4b3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βουβάλι.asset using Guid(b41e6bf99c977784290cd4db14b4b3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25a76afa1970747f5ce2c5053b5579a') in 0.003913 seconds
+  Import took 0.006757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.225220 seconds.
+  path: Assets/Cards/Βουλή.asset
+  artifactKey: Guid(3adacd9d79ed8a14a90a46de6ffd6897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βουλή.asset using Guid(3adacd9d79ed8a14a90a46de6ffd6897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7497b78a8e56d8f84fab3b8ad43ce82e') in 0.003886 seconds
+  Import took 0.006511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254663 seconds.
+  path: Assets/Cards/Βουτιά.asset
+  artifactKey: Guid(2d8272dd76d4b59498c7368328d57c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βουτιά.asset using Guid(2d8272dd76d4b59498c7368328d57c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25485c3d3328a0c73cebbcf174fb6b97') in 0.003861 seconds
+  Import took 0.006733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227553 seconds.
+  path: Assets/Cards/Βούτημα.asset
+  artifactKey: Guid(5ddf49d9e4766f24abeb48bd73d26185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βούτημα.asset using Guid(5ddf49d9e4766f24abeb48bd73d26185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181fef8a704687188f85a5812c2eae35') in 0.003885 seconds
+  Import took 0.006516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233640 seconds.
+  path: Assets/Cards/Βούτυρο.asset
+  artifactKey: Guid(551e844dd1dea1a42836ff1e81659d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βούτυρο.asset using Guid(551e844dd1dea1a42836ff1e81659d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e359a81379cda71888537aea9b4b1c9') in 0.003865 seconds
+  Import took 0.006770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234885 seconds.
+  path: Assets/Cards/Βρέφος.asset
+  artifactKey: Guid(2ec37e21bff8fe94d8e84213905423fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βρέφος.asset using Guid(2ec37e21bff8fe94d8e84213905423fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d778c585dd0214863eff9d029cbf41e') in 0.003823 seconds
+  Import took 0.006436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213469 seconds.
+  path: Assets/Cards/Βραβείο.asset
+  artifactKey: Guid(5812ca90f2e7f93498c5c0ea27050b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βραβείο.asset using Guid(5812ca90f2e7f93498c5c0ea27050b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b9381547a9a1f6ab7161f151a45cd8') in 0.003789 seconds
+  Import took 0.006405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237462 seconds.
+  path: Assets/Cards/Βραζιλία.asset
+  artifactKey: Guid(b7d22ce24bf81bc4bb24eb7deeb6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βραζιλία.asset using Guid(b7d22ce24bf81bc4bb24eb7deeb6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80687b0ddbe279c8dd5fc99a38b73c0') in 0.003935 seconds
+  Import took 0.006570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210538 seconds.
+  path: Assets/Cards/Βραχιόλι.asset
+  artifactKey: Guid(92d058510bdf2b0488d3299a6eabeaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βραχιόλι.asset using Guid(92d058510bdf2b0488d3299a6eabeaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ede5b5cc8a9c7961a11bca52ca8bda') in 0.003856 seconds
+  Import took 0.006465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.239934 seconds.
+  path: Assets/Cards/Βρεγμένος.asset
+  artifactKey: Guid(011f886637e5e504a8fd51183cd87952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βρεγμένος.asset using Guid(011f886637e5e504a8fd51183cd87952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1c3992bb152086e63b13570f4ef16b') in 0.003917 seconds
+  Import took 0.006578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207844 seconds.
+  path: Assets/Cards/Βρικόλακας.asset
+  artifactKey: Guid(41c37c1758f7b2f4db514113726d60a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βρικόλακας.asset using Guid(41c37c1758f7b2f4db514113726d60a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fcabfaf1773e927a0603fb446371d0') in 0.003881 seconds
+  Import took 0.006555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229619 seconds.
+  path: Assets/Cards/Βροχή.asset
+  artifactKey: Guid(ad0cba50eb01a9f43b736708ebc404a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βροχή.asset using Guid(ad0cba50eb01a9f43b736708ebc404a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bb00148328c7decbf61dc8fc8a37de') in 0.003834 seconds
+  Import took 0.006442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233202 seconds.
+  path: Assets/Cards/Βυθίζομαι.asset
+  artifactKey: Guid(c4b651efff255f54489530a4b21ef2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βυθίζομαι.asset using Guid(c4b651efff255f54489530a4b21ef2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a00f92b75a7677b4ffdf3ae6254050a') in 0.004052 seconds
+  Import took 0.006825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244499 seconds.
+  path: Assets/Cards/Βύσμα.asset
+  artifactKey: Guid(70672920b8aa8ff4882e0f035f9a1829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Βύσμα.asset using Guid(70672920b8aa8ff4882e0f035f9a1829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628fb76c1bea1bbcba72a3e5c9bdae09') in 0.003804 seconds
+  Import took 0.006440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229189 seconds.
+  path: Assets/Cards/Γάλα.asset
+  artifactKey: Guid(cd1b307f1840b264fb521e70f5ab7216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γάλα.asset using Guid(cd1b307f1840b264fb521e70f5ab7216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebe9878e44f16f7ea73dde3d156fed5') in 0.003776 seconds
+  Import took 0.006506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243233 seconds.
+  path: Assets/Cards/Γάντια.asset
+  artifactKey: Guid(839571eeac871d342b96d148367ffdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γάντια.asset using Guid(839571eeac871d342b96d148367ffdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5704f00f9c9a51db8b581f1cd67d703') in 0.003930 seconds
+  Import took 0.006756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224570 seconds.
+  path: Assets/Cards/Γάτα.asset
+  artifactKey: Guid(b4ad258d9e1848c48924f3f23762625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γάτα.asset using Guid(b4ad258d9e1848c48924f3f23762625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c436d6343d159e1b4b6d4d5b68914e6') in 0.003910 seconds
+  Import took 0.006609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248227 seconds.
+  path: Assets/Cards/Γάτζος.asset
+  artifactKey: Guid(ecd92753d2fcb9b459f11c031568959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γάτζος.asset using Guid(ecd92753d2fcb9b459f11c031568959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2916c1f0fdf79d94ffd94896f6c98b7d') in 0.004107 seconds
+  Import took 0.007017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233820 seconds.
+  path: Assets/Cards/Γέλιο.asset
+  artifactKey: Guid(3d9e3b4961899154f86bd2663c99ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γέλιο.asset using Guid(3d9e3b4961899154f86bd2663c99ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9db894af5041d795fe466bd0214d57f') in 0.003819 seconds
+  Import took 0.006436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217447 seconds.
+  path: Assets/Cards/Γένια.asset
+  artifactKey: Guid(f63793267c819ff42860e9f823b8d3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γένια.asset using Guid(f63793267c819ff42860e9f823b8d3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b62a03944fb3662acdb4a31cfb243ea') in 0.004217 seconds
+  Import took 0.007118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252021 seconds.
+  path: Assets/Cards/Γέφυρα.asset
+  artifactKey: Guid(3cba7edbd7994694d93dbdb0df8d0f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γέφυρα.asset using Guid(3cba7edbd7994694d93dbdb0df8d0f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff02ac59323fb7e71c385d87b6b097f') in 0.003899 seconds
+  Import took 0.006567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221444 seconds.
+  path: Assets/Cards/Γίγαντας.asset
+  artifactKey: Guid(6d6f59c2a9303ac49978626e362738e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γίγαντας.asset using Guid(6d6f59c2a9303ac49978626e362738e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4213d35345fe41db3868f8d2a12f51') in 0.003811 seconds
+  Import took 0.006426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.239181 seconds.
+  path: Assets/Cards/Γαλακτομπούρεκο.asset
+  artifactKey: Guid(cae967eda1f732b42838e3e3e8b1cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γαλακτομπούρεκο.asset using Guid(cae967eda1f732b42838e3e3e8b1cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896ad0c22e3f6adc1bf1eddc06959c5b') in 0.003869 seconds
+  Import took 0.006462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229484 seconds.
+  path: Assets/Cards/Γαλοπούλα.asset
+  artifactKey: Guid(2ef17890384400943b4ad82bec3c58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γαλοπούλα.asset using Guid(2ef17890384400943b4ad82bec3c58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7de7e01e20bc905dd1b60f40db0e54') in 0.004022 seconds
+  Import took 0.006874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.232916 seconds.
+  path: Assets/Cards/Γαργαλάω.asset
+  artifactKey: Guid(c4f89414fb878a744a8258c9ed6897a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γαργαλάω.asset using Guid(c4f89414fb878a744a8258c9ed6897a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda4c4a1df1b1daba0be7b3773d0384') in 0.004148 seconds
+  Import took 0.006854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242337 seconds.
+  path: Assets/Cards/Γαριδάκια.asset
+  artifactKey: Guid(5c9dca4e105d9b74bb75590a9479d36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γαριδάκια.asset using Guid(5c9dca4e105d9b74bb75590a9479d36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668e6c87fb8176a8ad2db0d31364aef3') in 0.003876 seconds
+  Import took 0.006482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.235233 seconds.
+  path: Assets/Cards/Γαρύφαλλο.asset
+  artifactKey: Guid(19dda44782228bf408214a48bc89a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γαρύφαλλο.asset using Guid(19dda44782228bf408214a48bc89a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7633b6ca40fc831090a87d0be51f2df') in 0.004279 seconds
+  Import took 0.006996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218654 seconds.
+  path: Assets/Cards/Γερανός.asset
+  artifactKey: Guid(6c55958a7b945554d803f5c4201a57c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γερανός.asset using Guid(6c55958a7b945554d803f5c4201a57c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a347f4fffa72fef803bf06247cc291b2') in 0.004022 seconds
+  Import took 0.006744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223411 seconds.
+  path: Assets/Cards/Γευσιγνώστης.asset
+  artifactKey: Guid(2a1739341e144644680f77136a6aa734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γευσιγνώστης.asset using Guid(2a1739341e144644680f77136a6aa734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e755cab85ef38aeeef38c709568aa4') in 0.003849 seconds
+  Import took 0.006463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224552 seconds.
+  path: Assets/Cards/Γεωμετρία.asset
+  artifactKey: Guid(1bd92c244cdf55f40a5b23c8a1084165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γεωμετρία.asset using Guid(1bd92c244cdf55f40a5b23c8a1084165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc480f8aac89d5c280a0e17f51a19d3') in 0.003923 seconds
+  Import took 0.006513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223799 seconds.
+  path: Assets/Cards/Γη.asset
+  artifactKey: Guid(6aa3007c2384c7a4aad30e39fcf81115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γη.asset using Guid(6aa3007c2384c7a4aad30e39fcf81115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e996195b464b518db846dfb7525e3652') in 0.004120 seconds
+  Import took 0.006838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238594 seconds.
+  path: Assets/Cards/Γιαούρτι.asset
+  artifactKey: Guid(c7f226cdfe991b24f9b2c3afdf03086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γιαούρτι.asset using Guid(c7f226cdfe991b24f9b2c3afdf03086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8ab5e5e84ea5abaed7c9854f78618') in 0.003845 seconds
+  Import took 0.006484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233033 seconds.
+  path: Assets/Cards/Γιλέκο.asset
+  artifactKey: Guid(8bba0cbe65c699843bf962d78a9727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γιλέκο.asset using Guid(8bba0cbe65c699843bf962d78a9727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36048aba4ba4bacd280732d525dd6b84') in 0.003854 seconds
+  Import took 0.006492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229617 seconds.
+  path: Assets/Cards/Γιο - Γιο.asset
+  artifactKey: Guid(76009c5e1e4f20d4ba29ad644f09e5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γιο - Γιο.asset using Guid(76009c5e1e4f20d4ba29ad644f09e5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289b21b47a639ae3a03d19c72bface17') in 0.003863 seconds
+  Import took 0.006444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219588 seconds.
+  path: Assets/Cards/Γιόγκα.asset
+  artifactKey: Guid(9076000a956c9e64eaeab0a7b1ba1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γιόγκα.asset using Guid(9076000a956c9e64eaeab0a7b1ba1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d94dfc4fcf1b05758610393a09ca8a') in 0.003822 seconds
+  Import took 0.006564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238577 seconds.
+  path: Assets/Cards/Γκέτο.asset
+  artifactKey: Guid(a25d4b8add68e3f49bbde850b9af3f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γκέτο.asset using Guid(a25d4b8add68e3f49bbde850b9af3f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b38bbe9fb7939c3242d581c16a4bbb6') in 0.004221 seconds
+  Import took 0.007102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233794 seconds.
+  path: Assets/Cards/Γκαραζ.asset
+  artifactKey: Guid(776bc511d05002b4eaa63443ed660485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γκαραζ.asset using Guid(776bc511d05002b4eaa63443ed660485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de7d14c9691b8093ea68141e17870c') in 0.003939 seconds
+  Import took 0.050394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199601 seconds.
+  path: Assets/Cards/Γκι.asset
+  artifactKey: Guid(f01b56aae77a8464fba3ccd735bc58bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γκι.asset using Guid(f01b56aae77a8464fba3ccd735bc58bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a84e62f19757065df79c62db764f9df') in 0.004227 seconds
+  Import took 0.021316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204563 seconds.
+  path: Assets/Cards/Γκολ.asset
+  artifactKey: Guid(420c3a8ff1677db47ad6f60bb122556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γκολ.asset using Guid(420c3a8ff1677db47ad6f60bb122556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c2602cbe90a345340666d2d2845adc') in 0.003811 seconds
+  Import took 0.006457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209116 seconds.
+  path: Assets/Cards/Γκολφ.asset
+  artifactKey: Guid(76772e899d2e08d4f98dd6d8d60c1eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γκολφ.asset using Guid(76772e899d2e08d4f98dd6d8d60c1eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea0dc53315a51c82a09f129fc3ff5ee') in 0.003921 seconds
+  Import took 0.006546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228531 seconds.
+  path: Assets/Cards/Γκρεμός.asset
+  artifactKey: Guid(3ea0bb5f605a70748ac8b5227019ba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γκρεμός.asset using Guid(3ea0bb5f605a70748ac8b5227019ba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dc7742f6837d3583e8e15852a22bfc') in 0.003817 seconds
+  Import took 0.006531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249518 seconds.
+  path: Assets/Cards/Γκρινιάρης.asset
+  artifactKey: Guid(2cb3252f7800e6e4ca87ba7a53a37673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γκρινιάρης.asset using Guid(2cb3252f7800e6e4ca87ba7a53a37673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d5095a942c28b2e5516b6c2afbe08d') in 0.003833 seconds
+  Import took 0.006460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227680 seconds.
+  path: Assets/Cards/Γλειφιτζούρι.asset
+  artifactKey: Guid(cf21a9c825b80dc44930cd0e41b00efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γλειφιτζούρι.asset using Guid(cf21a9c825b80dc44930cd0e41b00efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1065944693ea2a53af330b292e11408c') in 0.003812 seconds
+  Import took 0.006422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234428 seconds.
+  path: Assets/Cards/Γονιός.asset
+  artifactKey: Guid(6697f2de2159f294faab07b401bd6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γονιός.asset using Guid(6697f2de2159f294faab07b401bd6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a83ace00473b517f287b8eaf766e8e3') in 0.003726 seconds
+  Import took 0.006552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228877 seconds.
+  path: Assets/Cards/Γοργόνα.asset
+  artifactKey: Guid(fe2d619c5ef5e84498a25e7364a2ab03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γοργόνα.asset using Guid(fe2d619c5ef5e84498a25e7364a2ab03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b543ba20a66a2f1b3617b9135d8a4cb7') in 0.003705 seconds
+  Import took 0.006346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.232598 seconds.
+  path: Assets/Cards/Γράσο.asset
+  artifactKey: Guid(56c03d4ce375f0c4dbc5f7f31e412426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γράσο.asset using Guid(56c03d4ce375f0c4dbc5f7f31e412426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61874ebb550c52941e7dc661bddf67') in 0.003885 seconds
+  Import took 0.006509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226480 seconds.
+  path: Assets/Cards/Γρήγορος.asset
+  artifactKey: Guid(b9f291d6732eb054b9221d24e6219f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γρήγορος.asset using Guid(b9f291d6732eb054b9221d24e6219f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cd9f6447cc010759e4b59587836c45') in 0.003808 seconds
+  Import took 0.006437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228234 seconds.
+  path: Assets/Cards/Γραμματοκιβώτιο.asset
+  artifactKey: Guid(59a8b35808c7d8f40a8f7ef4103d70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γραμματοκιβώτιο.asset using Guid(59a8b35808c7d8f40a8f7ef4103d70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb012cca41b365b0830f91616f53302') in 0.003929 seconds
+  Import took 0.006945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219225 seconds.
+  path: Assets/Cards/Γρανίτα.asset
+  artifactKey: Guid(cc2576d04b03b5646a6407237627488e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γρανίτα.asset using Guid(cc2576d04b03b5646a6407237627488e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99affef5c5d4b8d3b39de2c24f9baad1') in 0.003845 seconds
+  Import took 0.006532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226373 seconds.
+  path: Assets/Cards/Γρασίδι.asset
+  artifactKey: Guid(8a12c2886660d3d4b8c542d3dbeff6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γρασίδι.asset using Guid(8a12c2886660d3d4b8c542d3dbeff6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b75a07c5c9fd30f8e27a9f1c14724d') in 0.003829 seconds
+  Import took 0.006450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222034 seconds.
+  path: Assets/Cards/Γρουσουζιά.asset
+  artifactKey: Guid(5f14db7d12a8b2b49b9a8846584dda77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γρουσουζιά.asset using Guid(5f14db7d12a8b2b49b9a8846584dda77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3414e1f8bdfb74a507716379263308a7') in 0.003831 seconds
+  Import took 0.006503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213014 seconds.
+  path: Assets/Cards/Γρύλος.asset
+  artifactKey: Guid(8d5537c4a034fcf4b9a8f97f722c0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γρύλος.asset using Guid(8d5537c4a034fcf4b9a8f97f722c0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c62fade58e7806a667a20bac98a5636') in 0.003777 seconds
+  Import took 0.006439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639972 seconds.
+  path: Assets/Cards/Γυαλί.asset
+  artifactKey: Guid(87eab7f32865ae547ab7327981a11396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γυαλί.asset using Guid(87eab7f32865ae547ab7327981a11396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9896d5f6b6e3029028b1e5eec4e50545') in 0.003903 seconds
+  Import took 0.006523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204641 seconds.
+  path: Assets/Cards/Γυμνός.asset
+  artifactKey: Guid(aa03064f6c46cb14d9b03804e905cdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γυμνός.asset using Guid(aa03064f6c46cb14d9b03804e905cdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a758ff4ec07782241075e5b03d95f7b5') in 0.003779 seconds
+  Import took 0.006390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213585 seconds.
+  path: Assets/Cards/Γωνία.asset
+  artifactKey: Guid(1ba612602576ade45bf33555e7bd95b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γωνία.asset using Guid(1ba612602576ade45bf33555e7bd95b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fbb1e3f4dd1cd07954127b1f997d88') in 0.003845 seconds
+  Import took 0.006472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228676 seconds.
+  path: Assets/Cards/Γύψος.asset
+  artifactKey: Guid(ae04eaa060e49e446865fba73feff9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Γύψος.asset using Guid(ae04eaa060e49e446865fba73feff9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45384cf04b6b007a31a7e301a8ca4be4') in 0.003875 seconds
+  Import took 0.006491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234308 seconds.
+  path: Assets/Cards/ΔΝΤ.asset
+  artifactKey: Guid(b7f9821b37f974045bc37ca0828b3d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/ΔΝΤ.asset using Guid(b7f9821b37f974045bc37ca0828b3d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457d9423184d9fc8fa4804fff83593db') in 0.003820 seconds
+  Import took 0.006708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274427 seconds.
+  path: Assets/Cards/Δάσος.asset
+  artifactKey: Guid(97def3258e327f84eb4128bf4b536a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δάσος.asset using Guid(97def3258e327f84eb4128bf4b536a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80297e669524b61c1393d1e23aaae7de') in 0.003831 seconds
+  Import took 0.006461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222184 seconds.
+  path: Assets/Cards/Δάχτυλο.asset
+  artifactKey: Guid(16ad278bd4d37304a904338143b49410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δάχτυλο.asset using Guid(16ad278bd4d37304a904338143b49410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f5d24253c3d988c544cfcf55ea0bbc') in 0.004224 seconds
+  Import took 0.007198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210219 seconds.
+  path: Assets/Cards/Δένω.asset
+  artifactKey: Guid(0c629f46c3059ab41aad82dd2c466df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δένω.asset using Guid(0c629f46c3059ab41aad82dd2c466df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf402d8c2222ba88c8fe811d1108b510') in 0.003913 seconds
+  Import took 0.006735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217828 seconds.
+  path: Assets/Cards/Δέρμα.asset
+  artifactKey: Guid(66e282446474cd64fa02e1172edaff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δέρμα.asset using Guid(66e282446474cd64fa02e1172edaff35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16e9cc4e520043c4ea2b5be87572c68') in 0.003826 seconds
+  Import took 0.006426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249766 seconds.
+  path: Assets/Cards/Δίαιτα.asset
+  artifactKey: Guid(4e826403fc15e254a850998d1fa3122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δίαιτα.asset using Guid(4e826403fc15e254a850998d1fa3122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78ecd18c9c903237346b86554204e31') in 0.004125 seconds
+  Import took 0.006823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231161 seconds.
+  path: Assets/Cards/Δαντέλα.asset
+  artifactKey: Guid(a449d59b2a0fc8f4fbbc5817eda985eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δαντέλα.asset using Guid(a449d59b2a0fc8f4fbbc5817eda985eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccce1b6f496488f8568c1199f1d3f2c') in 0.004081 seconds
+  Import took 0.006762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.235159 seconds.
+  path: Assets/Cards/Δαρβίνος.asset
+  artifactKey: Guid(5ecada6691ba981429430a09f94d2bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δαρβίνος.asset using Guid(5ecada6691ba981429430a09f94d2bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446571dc316d0168b666d7106952e3a7') in 0.003926 seconds
+  Import took 0.006529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229814 seconds.
+  path: Assets/Cards/Δασκάλα.asset
+  artifactKey: Guid(db51a1539cc593147b5c319a0a9e3223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δασκάλα.asset using Guid(db51a1539cc593147b5c319a0a9e3223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f810d869300c710d42ddb4defb6d1723') in 0.003830 seconds
+  Import took 0.006451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213620 seconds.
+  path: Assets/Cards/Δασοφύλακας.asset
+  artifactKey: Guid(f600affb2abb10d479598e0a37f5a24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δασοφύλακας.asset using Guid(f600affb2abb10d479598e0a37f5a24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78b755eb5c8969c9ca60b5e05730ebb') in 0.003843 seconds
+  Import took 0.006501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224153 seconds.
+  path: Assets/Cards/Δαχτυλήθρα.asset
+  artifactKey: Guid(15bc6404801d5fa45b1f43066f9f4b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δαχτυλήθρα.asset using Guid(15bc6404801d5fa45b1f43066f9f4b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0ac7e847abd3b41563f39431d48883') in 0.003856 seconds
+  Import took 0.006447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229257 seconds.
+  path: Assets/Cards/Δείπνο.asset
+  artifactKey: Guid(f35d8416724020c438e33fd52ecd35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δείπνο.asset using Guid(f35d8416724020c438e33fd52ecd35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969811ad7018cdd57f3e480c355741eb') in 0.003802 seconds
+  Import took 0.006390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234070 seconds.
+  path: Assets/Cards/Δελφίνι.asset
+  artifactKey: Guid(7ee3cfded235b2540bb83ee2bbe1f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δελφίνι.asset using Guid(7ee3cfded235b2540bb83ee2bbe1f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bcc803596b2d5002ea34ee6577f64f') in 0.003929 seconds
+  Import took 0.066233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176937 seconds.
+  path: Assets/Cards/Δεξίωση.asset
+  artifactKey: Guid(177220bdd938f9f43a7a2e34c968ad1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δεξίωση.asset using Guid(177220bdd938f9f43a7a2e34c968ad1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85046b6f56341de856e319a45f76b0fd') in 0.003842 seconds
+  Import took 0.006439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226541 seconds.
+  path: Assets/Cards/Δεσμός.asset
+  artifactKey: Guid(2cc84f07c2b830c468f4865dd779ff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δεσμός.asset using Guid(2cc84f07c2b830c468f4865dd779ff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f61f1ec9d5e7103aaaaf7905c5d535') in 0.003800 seconds
+  Import took 0.006399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233782 seconds.
+  path: Assets/Cards/Δηλητήριο.asset
+  artifactKey: Guid(ed89fd7c5690d2c4f8ac192dcdbde710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δηλητήριο.asset using Guid(ed89fd7c5690d2c4f8ac192dcdbde710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b348e89c2fd726f105153d39312b4a24') in 0.003854 seconds
+  Import took 0.006458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223822 seconds.
+  path: Assets/Cards/Δημητριακά.asset
+  artifactKey: Guid(cf24a77428f01d8488a4fefa7cb10dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δημητριακά.asset using Guid(cf24a77428f01d8488a4fefa7cb10dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85651b6640a8bcf41bff0b30e6c05840') in 0.003815 seconds
+  Import took 0.006464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214284 seconds.
+  path: Assets/Cards/Δημοπρασία.asset
+  artifactKey: Guid(ee83ad840c7f19c45aa59e90b19b4fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δημοπρασία.asset using Guid(ee83ad840c7f19c45aa59e90b19b4fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1e2dabe4d925ff31c1f4d84c3347a8') in 0.003878 seconds
+  Import took 0.006466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228794 seconds.
+  path: Assets/Cards/Διάβολος.asset
+  artifactKey: Guid(cfc2d8e0be8636541992e52df924e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διάβολος.asset using Guid(cfc2d8e0be8636541992e52df924e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685b4ad4ef030a65e7b6e556e1080bed') in 0.004191 seconds
+  Import took 0.006976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213944 seconds.
+  path: Assets/Cards/Διαβατήριο.asset
+  artifactKey: Guid(ad4f0f5f49e95184e8a15c2a89f196af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διαβατήριο.asset using Guid(ad4f0f5f49e95184e8a15c2a89f196af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ede1548d3543369dc7bbe8b3117530') in 0.003803 seconds
+  Import took 0.006347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204739 seconds.
+  path: Assets/Cards/Διαζύγιο.asset
+  artifactKey: Guid(99662fd0116740648b1219758775a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διαζύγιο.asset using Guid(99662fd0116740648b1219758775a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7210804b3c419c81f1b7d93f281e2d6e') in 0.003843 seconds
+  Import took 0.006426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223011 seconds.
+  path: Assets/Cards/Διαιτητής.asset
+  artifactKey: Guid(426ade7e0b8646d48ab92fb1e561d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διαιτητής.asset using Guid(426ade7e0b8646d48ab92fb1e561d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97730cf4373268b5b995f006da9eb3e') in 0.003858 seconds
+  Import took 0.006454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218594 seconds.
+  path: Assets/Cards/Διαμάντι.asset
+  artifactKey: Guid(e614e7a79f72e5d43aee8fcda10a3cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διαμάντι.asset using Guid(e614e7a79f72e5d43aee8fcda10a3cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62448e5ddf79596db9a973d1ce03d466') in 0.003941 seconds
+  Import took 0.006591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224832 seconds.
+  path: Assets/Cards/Διαμέρισμα.asset
+  artifactKey: Guid(53eb1dca813a58245a0a0e3dcc16fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διαμέρισμα.asset using Guid(53eb1dca813a58245a0a0e3dcc16fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839db32a76d7e464d05ff6edae787f7d') in 0.003903 seconds
+  Import took 0.006484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203375 seconds.
+  path: Assets/Cards/Διαμαρτυρία.asset
+  artifactKey: Guid(a94e2bb8a7178a049bd0faef94e482b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διαμαρτυρία.asset using Guid(a94e2bb8a7178a049bd0faef94e482b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0678b478502b9a8bb6c306a2b7b593') in 0.003845 seconds
+  Import took 0.006687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196959 seconds.
+  path: Assets/Cards/Διαρρήκτης.asset
+  artifactKey: Guid(945aeaf01f465b840895722687c72028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διαρρήκτης.asset using Guid(945aeaf01f465b840895722687c72028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e99edd6b80a4ddfacf7606a13600a6f') in 0.004073 seconds
+  Import took 0.007175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.189501 seconds.
+  path: Assets/Cards/Δικαστήριο.asset
+  artifactKey: Guid(2990243ad626c1348a0b6348ebffb0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δικαστήριο.asset using Guid(2990243ad626c1348a0b6348ebffb0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6b5b9581d1e9d192eeb7fbe53d340') in 0.003903 seconds
+  Import took 0.006499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204748 seconds.
+  path: Assets/Cards/Δικηγόρος.asset
+  artifactKey: Guid(80a376a40d647194fb68982442ae9b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δικηγόρος.asset using Guid(80a376a40d647194fb68982442ae9b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74af853813ae26dcf8e83debc66c6f0') in 0.004289 seconds
+  Import took 0.007711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187441 seconds.
+  path: Assets/Cards/Διπλό Τζάμι.asset
+  artifactKey: Guid(0f068271cdc6d9344ae127772fb2aeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διπλό Τζάμι.asset using Guid(0f068271cdc6d9344ae127772fb2aeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6457bae32138c996acf1f5b16f4ecc0') in 0.003925 seconds
+  Import took 0.006517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188937 seconds.
+  path: Assets/Cards/Διπλός.asset
+  artifactKey: Guid(17f652c54395b0946bd6197b125461bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διπλός.asset using Guid(17f652c54395b0946bd6197b125461bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d7bd3877df89c426c79c624ff6df3f') in 0.003833 seconds
+  Import took 0.006440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201915 seconds.
+  path: Assets/Cards/Διψάω.asset
+  artifactKey: Guid(d07d648b7c6c29248817636991c14377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διψάω.asset using Guid(d07d648b7c6c29248817636991c14377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c2d83bbdf9ac09337333d2de0f0ce8') in 0.003921 seconds
+  Import took 0.006935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170091 seconds.
+  path: Assets/Cards/Διόδια.asset
+  artifactKey: Guid(a0131c7b644eefc4bb1cba8fe9bdc258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Διόδια.asset using Guid(a0131c7b644eefc4bb1cba8fe9bdc258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bbbf2a046b8d6763a9c1ec3b9ddfae') in 0.003860 seconds
+  Import took 0.006486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185010 seconds.
+  path: Assets/Cards/Δουλειά.asset
+  artifactKey: Guid(200bfd2d5510bb9418305f4b31ae5bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δουλειά.asset using Guid(200bfd2d5510bb9418305f4b31ae5bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d86cdac0545e3b40aca403d5f28580') in 0.004075 seconds
+  Import took 0.006893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137943 seconds.
+  path: Assets/Cards/Δρομέας.asset
+  artifactKey: Guid(fb2c16747a9b8644db4c9e3dab05fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δρομέας.asset using Guid(fb2c16747a9b8644db4c9e3dab05fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ae3debb80dbbcf27f0270a596895fa') in 0.003977 seconds
+  Import took 0.006884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182716 seconds.
+  path: Assets/Cards/Δρόμος.asset
+  artifactKey: Guid(3795009fc2a09c745a4235af74dd34aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δρόμος.asset using Guid(3795009fc2a09c745a4235af74dd34aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4158d63443f382972dea4226a333435f') in 0.003793 seconds
+  Import took 0.006420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.153535 seconds.
+  path: Assets/Cards/Δυναμίτης.asset
+  artifactKey: Guid(45240ea1141c5e045b1289cbc209eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δυναμίτης.asset using Guid(45240ea1141c5e045b1289cbc209eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8aabc382dd073fc265e049a8c84fbe') in 0.003982 seconds
+  Import took 0.006640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148447 seconds.
+  path: Assets/Cards/Δυσοσμία.asset
+  artifactKey: Guid(f45c3bc31bdd79f4986aaad31887582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δυσοσμία.asset using Guid(f45c3bc31bdd79f4986aaad31887582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccb6aa51286375ba475edab09f955c5') in 0.003848 seconds
+  Import took 0.006470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155244 seconds.
+  path: Assets/Cards/Δωδεκάνησα.asset
+  artifactKey: Guid(8bb680a97c165a54db78c868305dceba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δωδεκάνησα.asset using Guid(8bb680a97c165a54db78c868305dceba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d34956c56637c635dfab55f8cd500e') in 0.003898 seconds
+  Import took 0.006500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157946 seconds.
+  path: Assets/Cards/Δωρεά.asset
+  artifactKey: Guid(799ee3534732f8345b18313c0cf2081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δωρεά.asset using Guid(799ee3534732f8345b18313c0cf2081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8233ddc7e4c21cf081ddd78c6dbacbd') in 0.003828 seconds
+  Import took 0.340724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Cards/Δόντι.asset
+  artifactKey: Guid(643b85335cda368479fecfe3912a1da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δόντι.asset using Guid(643b85335cda368479fecfe3912a1da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbce6c156aae0e6837b4ff1529d6d57') in 0.003916 seconds
+  Import took 0.006295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Cards/Δόλωμα.asset
+  artifactKey: Guid(5b6140a8e3306be44b0433c98e6ddfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Δόλωμα.asset using Guid(5b6140a8e3306be44b0433c98e6ddfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b67951905426dc53342d0a2848538c') in 0.003793 seconds
+  Import took 0.006272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103058 seconds.
+  path: Assets/Cards/Είσοδος.asset
+  artifactKey: Guid(f0578b74a48e0cb40b0fc5e00edc323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Είσοδος.asset using Guid(f0578b74a48e0cb40b0fc5e00edc323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e8e1405f774de816cf54832693edc2') in 0.003851 seconds
+  Import took 0.006548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999906 seconds.
+  path: Assets/Cards/Εγγύηση.asset
+  artifactKey: Guid(c2fd10e892c7f9348beabb100dcb69b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εγγύηση.asset using Guid(c2fd10e892c7f9348beabb100dcb69b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f944e5533b0472eadf6611bcd5e464c9') in 0.003893 seconds
+  Import took 0.006570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.496425 seconds.
+  path: Assets/Cards/Εθνικός Ύμνος.asset
+  artifactKey: Guid(c5754c7299269bb4dafe2e752f5e7529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εθνικός Ύμνος.asset using Guid(c5754c7299269bb4dafe2e752f5e7529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7245bb4116c656438bb60d432140c7d') in 0.004212 seconds
+  Import took 0.007226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041761 seconds.
+  path: Assets/Cards/Εθνικός Κήπος.asset
+  artifactKey: Guid(d4d9e3f194a8b644dac2eb2d428bbc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εθνικός Κήπος.asset using Guid(d4d9e3f194a8b644dac2eb2d428bbc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385ab68ae4c4ad01a7c3b156bbdead8c') in 0.003995 seconds
+  Import took 0.006643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040924 seconds.
+  path: Assets/Cards/Ειλικρίνεια.asset
+  artifactKey: Guid(3d819649f24b1a64bb1dc7ccc753f1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ειλικρίνεια.asset using Guid(3d819649f24b1a64bb1dc7ccc753f1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4992943fc2e70ac0748f32b345d6d17a') in 0.003800 seconds
+  Import took 0.006423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023725 seconds.
+  path: Assets/Cards/Εισιτήριο.asset
+  artifactKey: Guid(cdbbc4cb33be7624ead4f02fd777f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εισιτήριο.asset using Guid(cdbbc4cb33be7624ead4f02fd777f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8c4bce6639a515813f6ff0d41bbaa8') in 0.003945 seconds
+  Import took 0.006566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030368 seconds.
+  path: Assets/Cards/Εκατομμυριούχος.asset
+  artifactKey: Guid(86f948051f5f1c740982c8eb3e9ccc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εκατομμυριούχος.asset using Guid(86f948051f5f1c740982c8eb3e9ccc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1746e2a720bae561265acdaef24ae0db') in 0.003826 seconds
+  Import took 0.006630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025413 seconds.
+  path: Assets/Cards/Εκκλησία.asset
+  artifactKey: Guid(70f6d662e1aa4b047831fdba3f10eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εκκλησία.asset using Guid(70f6d662e1aa4b047831fdba3f10eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df909d14ae68cb7301c151f82b45457d') in 0.003730 seconds
+  Import took 0.006352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031764 seconds.
+  path: Assets/Cards/Εκτυπωτής.asset
+  artifactKey: Guid(240346af20ae9e847949fa3e6e4f2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εκτυπωτής.asset using Guid(240346af20ae9e847949fa3e6e4f2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae81bb91d6c8cc1a53116e0db1de56') in 0.003929 seconds
+  Import took 0.006899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031086 seconds.
+  path: Assets/Cards/Ελαιόλαδο.asset
+  artifactKey: Guid(01c41a1b326d98145876ceaa6fbbb08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ελαιόλαδο.asset using Guid(01c41a1b326d98145876ceaa6fbbb08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f1a2d0f1f096788c7b04948fa2ca46') in 0.003940 seconds
+  Import took 0.006543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466119 seconds.
+  path: Assets/Cards/Ελεφαντόδοντο.asset
+  artifactKey: Guid(43132f8a077d83148bdce3d6b612d25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ελεφαντόδοντο.asset using Guid(43132f8a077d83148bdce3d6b612d25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99172292c7b2d3fb918d18aa664f6ba8') in 0.003813 seconds
+  Import took 0.006731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502827 seconds.
+  path: Assets/Cards/Ελικόπτερο.asset
+  artifactKey: Guid(fedf0f8fbcee7294d89db40f06604509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ελικόπτερο.asset using Guid(fedf0f8fbcee7294d89db40f06604509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4160178b73d7c65a4fffec2e91596a') in 0.004030 seconds
+  Import took 0.006944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043127 seconds.
+  path: Assets/Cards/Ενεχυροδανειστής.asset
+  artifactKey: Guid(cecdcab9c728f134592ad72db291d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ενεχυροδανειστής.asset using Guid(cecdcab9c728f134592ad72db291d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83aeea66091f70085f1de2baaa1c57a') in 0.003969 seconds
+  Import took 0.006708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026131 seconds.
+  path: Assets/Cards/Ενημέρωση.asset
+  artifactKey: Guid(e8b1cd21616cdc047b4a7fcef92b81e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ενημέρωση.asset using Guid(e8b1cd21616cdc047b4a7fcef92b81e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cc9467af1e2a6b82a0575af0c829a5') in 0.004229 seconds
+  Import took 0.031469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Cards/Ενυδατική.asset
+  artifactKey: Guid(90b309c740397744c91148627a527580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ενυδατική.asset using Guid(90b309c740397744c91148627a527580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c68b34302cf556a2b0defb5793cd5d') in 0.003891 seconds
+  Import took 0.006396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041724 seconds.
+  path: Assets/Cards/Ενυδρείο.asset
+  artifactKey: Guid(1bc9991b288284547a46e6590c923b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ενυδρείο.asset using Guid(1bc9991b288284547a46e6590c923b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c471b410bd155aec0caec82f9f3f864') in 0.003866 seconds
+  Import took 0.006532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028606 seconds.
+  path: Assets/Cards/Εξετάσεις.asset
+  artifactKey: Guid(06c555893a0be684dbb8f800ab8fb1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εξετάσεις.asset using Guid(06c555893a0be684dbb8f800ab8fb1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63feef8abe9316acaff5a1e116e57213') in 0.003887 seconds
+  Import took 0.006463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026335 seconds.
+  path: Assets/Cards/Εξωγήινος.asset
+  artifactKey: Guid(8693ed40483f3d2409f7b6b48dd3492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εξωγήινος.asset using Guid(8693ed40483f3d2409f7b6b48dd3492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f361071a74eba81ac38d8fd29dae1f7c') in 0.004150 seconds
+  Import took 0.006744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030302 seconds.
+  path: Assets/Cards/Επέτειος.asset
+  artifactKey: Guid(f55796fdf64f96243a87b3483d333974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Επέτειος.asset using Guid(f55796fdf64f96243a87b3483d333974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab53ef1ba544d4b8272e41456530ece') in 0.003952 seconds
+  Import took 0.006575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024884 seconds.
+  path: Assets/Cards/Επίθεση.asset
+  artifactKey: Guid(b674a2b331bb5a5489bf617c87385d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Επίθεση.asset using Guid(b674a2b331bb5a5489bf617c87385d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae82dbeb40e49bda5ef62f653d1dcf') in 0.004131 seconds
+  Import took 0.006842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034686 seconds.
+  path: Assets/Cards/Επιπλέω.asset
+  artifactKey: Guid(6698e701a7fdccb41a4d863fb29cd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Επιπλέω.asset using Guid(6698e701a7fdccb41a4d863fb29cd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33352028d669a73b1b067047f77fda8d') in 0.003812 seconds
+  Import took 0.019072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000968 seconds.
+  path: Assets/Cards/Ερμού.asset
+  artifactKey: Guid(4f2cef9c94b26e7439f5e018bc47198b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ερμού.asset using Guid(4f2cef9c94b26e7439f5e018bc47198b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4bda40718f65bf27439ca5a18342d') in 0.003792 seconds
+  Import took 0.006356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041288 seconds.
+  path: Assets/Cards/Ερωτηματικό.asset
+  artifactKey: Guid(f3e8b15523ba95a46aae1a3e233024cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ερωτηματικό.asset using Guid(f3e8b15523ba95a46aae1a3e233024cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cc27033771feb99ccec5e010c31cf3') in 0.003948 seconds
+  Import took 0.006840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021681 seconds.
+  path: Assets/Cards/Εσώρουχα.asset
+  artifactKey: Guid(e45293521cfb3c848ac84b7e7c0607b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εσώρουχα.asset using Guid(e45293521cfb3c848ac84b7e7c0607b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a18892d3f120e1d5cad27c34b95cc9') in 0.003899 seconds
+  Import took 0.006589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029481 seconds.
+  path: Assets/Cards/Ευρωπαϊκη Ένωση.asset
+  artifactKey: Guid(5aef7212961bc3744a4bf4faa0d8c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ευρωπαϊκη Ένωση.asset using Guid(5aef7212961bc3744a4bf4faa0d8c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc87737e7880076746050a75169f3fa') in 0.004107 seconds
+  Import took 0.006862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026261 seconds.
+  path: Assets/Cards/Εφημερίδα.asset
+  artifactKey: Guid(05f7c0be777a4ea4ca7894941ea2a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Εφημερίδα.asset using Guid(05f7c0be777a4ea4ca7894941ea2a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f478a0afae08c6869cd4e86ebefdedea') in 0.003876 seconds
+  Import took 0.006756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044253 seconds.
+  path: Assets/Cards/Ζάρι.asset
+  artifactKey: Guid(492232d52a853364781b5bc6bd990629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζάρι.asset using Guid(492232d52a853364781b5bc6bd990629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4678f08ed74f591275df2c60862d92') in 0.003877 seconds
+  Import took 0.006460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028341 seconds.
+  path: Assets/Cards/Ζέβρα.asset
+  artifactKey: Guid(9a4337b7712755f4a93d5cb07482ca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζέβρα.asset using Guid(9a4337b7712755f4a93d5cb07482ca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f003297ad5f814abb275e6ee1d1cf20') in 0.003973 seconds
+  Import took 0.020152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Cards/Ζήλια.asset
+  artifactKey: Guid(effb438cae11c1a49a63748ea158f08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζήλια.asset using Guid(effb438cae11c1a49a63748ea158f08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c481d8eaadf5e596bdc1493ade3809') in 0.004070 seconds
+  Import took 0.006448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023537 seconds.
+  path: Assets/Cards/Ζαμπόν.asset
+  artifactKey: Guid(e9d4015d3f694b445914734827f00e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζαμπόν.asset using Guid(e9d4015d3f694b445914734827f00e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5742542a5f4b2498a9db2ad4bde954') in 0.003859 seconds
+  Import took 0.006439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026896 seconds.
+  path: Assets/Cards/Ζαχαρωτό.asset
+  artifactKey: Guid(22a86f05519ca3b4bbfb185f187a1583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζαχαρωτό.asset using Guid(22a86f05519ca3b4bbfb185f187a1583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7682b108124e95caf45aa0fd50bd256') in 0.003876 seconds
+  Import took 0.014311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019817 seconds.
+  path: Assets/Cards/Ζελέ.asset
+  artifactKey: Guid(0114e0f8a3aeb7f428ce6c16eb0a456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζελέ.asset using Guid(0114e0f8a3aeb7f428ce6c16eb0a456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8cf91f3b8858c9e596d993ac48e347') in 0.003854 seconds
+  Import took 0.006634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024087 seconds.
+  path: Assets/Cards/Ζογκλέρ.asset
+  artifactKey: Guid(b533ee2cd99a6d04ca0414bffafcc9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζογκλέρ.asset using Guid(b533ee2cd99a6d04ca0414bffafcc9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d92ee21cc58bf4667da28fac80ebc13') in 0.004077 seconds
+  Import took 0.006907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027881 seconds.
+  path: Assets/Cards/Ζυγαριά.asset
+  artifactKey: Guid(427dca3b3bc0aab4c9749b57cbfbece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζυγαριά.asset using Guid(427dca3b3bc0aab4c9749b57cbfbece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffb2eba08ae56784c2b7941b1bbd098') in 0.003780 seconds
+  Import took 0.006368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024993 seconds.
+  path: Assets/Cards/Ζυμαρικά.asset
+  artifactKey: Guid(1b6f7bfee12cb8047955cbb8019249d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζυμαρικά.asset using Guid(1b6f7bfee12cb8047955cbb8019249d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b661f96a20ec47aa60bfb763767611b') in 0.003813 seconds
+  Import took 0.006418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028584 seconds.
+  path: Assets/Cards/Ζόμπι.asset
+  artifactKey: Guid(c31e49d1025a607429b06c5a37464b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζόμπι.asset using Guid(c31e49d1025a607429b06c5a37464b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc0a5ab87bd3e6059d1dd1565d1e779') in 0.004240 seconds
+  Import took 0.006930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025116 seconds.
+  path: Assets/Cards/Ζύμη.asset
+  artifactKey: Guid(5aeccf6ed6e00254d9f2d5afbfb45a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ζύμη.asset using Guid(5aeccf6ed6e00254d9f2d5afbfb45a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43e4e78bee492659fd6c84c8c62a110') in 0.003762 seconds
+  Import took 0.006318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028025 seconds.
+  path: Assets/Cards/Ηθοποιός.asset
+  artifactKey: Guid(27309a834841316448b279bb93b99fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηθοποιός.asset using Guid(27309a834841316448b279bb93b99fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197f921207b8746e56886882bea8048c') in 0.003861 seconds
+  Import took 0.006427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025962 seconds.
+  path: Assets/Cards/Ηλεκτρικό Ρεύμα.asset
+  artifactKey: Guid(bc0441ca7c4e5c04fb6a0a4c7d5334a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηλεκτρικό Ρεύμα.asset using Guid(bc0441ca7c4e5c04fb6a0a4c7d5334a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831bf98fd5ea2c31e6a21fde5e404610') in 0.003864 seconds
+  Import took 0.006430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028120 seconds.
+  path: Assets/Cards/Ηλιοβασίλεμα.asset
+  artifactKey: Guid(6860dd2242827ce41b4ab7f7a98726a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηλιοβασίλεμα.asset using Guid(6860dd2242827ce41b4ab7f7a98726a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a93cdc28e7705dc32d5b059fee7188') in 0.003869 seconds
+  Import took 0.006587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024183 seconds.
+  path: Assets/Cards/Ηλιοθεραπεία.asset
+  artifactKey: Guid(2697d9ba20d13d744ae51f5f70194e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηλιοθεραπεία.asset using Guid(2697d9ba20d13d744ae51f5f70194e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa9f1f8120387a3090791c62ae7b36b') in 0.003875 seconds
+  Import took 0.006592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029740 seconds.
+  path: Assets/Cards/Ηλιοτρόπιο.asset
+  artifactKey: Guid(5232ef11770629649aa7077449e412a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηλιοτρόπιο.asset using Guid(5232ef11770629649aa7077449e412a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b7aa9f509b347199dcad19a587ae74') in 0.003960 seconds
+  Import took 0.006935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025691 seconds.
+  path: Assets/Cards/Ημερολόγιο.asset
+  artifactKey: Guid(f47e26d85feb25243b3c14523c1336e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ημερολόγιο.asset using Guid(f47e26d85feb25243b3c14523c1336e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978f11a72ecec187ee99e2241df77b34') in 0.003945 seconds
+  Import took 0.006560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027908 seconds.
+  path: Assets/Cards/Ηρακλής.asset
+  artifactKey: Guid(6539e9f092eb411418d1205d781cb6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηρακλής.asset using Guid(6539e9f092eb411418d1205d781cb6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f579eeb68f192a2a5f4e3edf608e7115') in 0.003840 seconds
+  Import took 0.006837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024177 seconds.
+  path: Assets/Cards/Ηφαίστειο.asset
+  artifactKey: Guid(b42e56a4f6135cb418cef437263231e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηφαίστειο.asset using Guid(b42e56a4f6135cb418cef437263231e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4cca6323ec7718ab5f3dcec8d07e49') in 0.003940 seconds
+  Import took 0.006740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024894 seconds.
+  path: Assets/Cards/Ηχογράφηση.asset
+  artifactKey: Guid(392aafbd127a0144bb7fb0c2a1017608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ηχογράφηση.asset using Guid(392aafbd127a0144bb7fb0c2a1017608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596033e2089130166f5a6a93fbd3bf17') in 0.003846 seconds
+  Import took 0.006886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028348 seconds.
+  path: Assets/Cards/Θέα.asset
+  artifactKey: Guid(f233e23b971f77440bcbd02a76111d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θέα.asset using Guid(f233e23b971f77440bcbd02a76111d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172df3862e616c6f2dbc5a70c834855') in 0.003834 seconds
+  Import took 0.006485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024682 seconds.
+  path: Assets/Cards/Θέατρο.asset
+  artifactKey: Guid(9673a6a2e5e9e0c4b887bb2253843bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θέατρο.asset using Guid(9673a6a2e5e9e0c4b887bb2253843bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825b339ad7b484e837b3c72f585e9273') in 0.003870 seconds
+  Import took 0.006688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034912 seconds.
+  path: Assets/Cards/Θερίζω.asset
+  artifactKey: Guid(2cd0c2c3817c73847ae686bd3f666caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θερίζω.asset using Guid(2cd0c2c3817c73847ae686bd3f666caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88439178ce930338535f9115745a6db1') in 0.003846 seconds
+  Import took 0.006442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025105 seconds.
+  path: Assets/Cards/Θερμοκήπιο.asset
+  artifactKey: Guid(d46039be7b0d74345832e242847fb27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θερμοκήπιο.asset using Guid(d46039be7b0d74345832e242847fb27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05aae48121e1e3070249d97a795a45d5') in 0.003809 seconds
+  Import took 0.006434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027754 seconds.
+  path: Assets/Cards/Θερμόμετρο.asset
+  artifactKey: Guid(2866b5650d553d749a367e9df8650534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θερμόμετρο.asset using Guid(2866b5650d553d749a367e9df8650534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7be21656a15f5732f5a159f44bcbf6') in 0.003955 seconds
+  Import took 0.006603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024284 seconds.
+  path: Assets/Cards/Θεσσαλονίκη.asset
+  artifactKey: Guid(a397dd0a18bbffd4295eb60f6d5ffb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θεσσαλονίκη.asset using Guid(a397dd0a18bbffd4295eb60f6d5ffb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd07b3db21f3f0b3e2938af6c24220aa') in 0.003901 seconds
+  Import took 0.006516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027185 seconds.
+  path: Assets/Cards/Θετικό.asset
+  artifactKey: Guid(b847cbdf4dbe8cc48b5ea109ed18976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θετικό.asset using Guid(b847cbdf4dbe8cc48b5ea109ed18976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2024bd6fdf57a4ea033ceddd1b5cf569') in 0.003795 seconds
+  Import took 0.006500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024974 seconds.
+  path: Assets/Cards/Θησαυρός.asset
+  artifactKey: Guid(53753ee0d0afb2544899668c74b1802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Θησαυρός.asset using Guid(53753ee0d0afb2544899668c74b1802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1848f704ca241a8a6080dd1c6b08452f') in 0.004062 seconds
+  Import took 0.006888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026719 seconds.
+  path: Assets/Cards/Ιδέα.asset
+  artifactKey: Guid(372124d61d00969418f3b5cbf2ac53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ιδέα.asset using Guid(372124d61d00969418f3b5cbf2ac53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb94a6cabd24773b294306baee53324') in 0.004102 seconds
+  Import took 0.006694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024397 seconds.
+  path: Assets/Cards/Ιδρώτας.asset
+  artifactKey: Guid(8fbf4e5aae993b04285450d58ad40b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ιδρώτας.asset using Guid(8fbf4e5aae993b04285450d58ad40b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea3b2aa76d3a6cb82048755fe820fa') in 0.004157 seconds
+  Import took 0.006765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026890 seconds.
+  path: Assets/Cards/Ιμαλάια.asset
+  artifactKey: Guid(2268c934fc94eb14c91865e8db5ba256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ιμαλάια.asset using Guid(2268c934fc94eb14c91865e8db5ba256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf50c324e4a29e2073dbb601ccec60a') in 0.003786 seconds
+  Import took 0.006394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024588 seconds.
+  path: Assets/Cards/Ιππασία.asset
+  artifactKey: Guid(e316eb57dd689484f80eae6f9fd9d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ιππασία.asset using Guid(e316eb57dd689484f80eae6f9fd9d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6207682f394defd321e6cc45a471cf42') in 0.003846 seconds
+  Import took 0.006435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029238 seconds.
+  path: Assets/Cards/Ιστιοπλοϊκός Όμιλος.asset
+  artifactKey: Guid(d099253e022b0c043a868db6df25db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ιστιοπλοϊκός Όμιλος.asset using Guid(d099253e022b0c043a868db6df25db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdf94ccceee0ca2c3efa872069f474c') in 0.003854 seconds
+  Import took 0.006504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025290 seconds.
+  path: Assets/Cards/Ιστιοφόρο.asset
+  artifactKey: Guid(a291ca11a7912764bb865b892fd98b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ιστιοφόρο.asset using Guid(a291ca11a7912764bb865b892fd98b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bed54edff4f2d2fe659e54096d22de') in 0.005467 seconds
+  Import took 0.008035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026110 seconds.
+  path: Assets/Cards/Ιστορία.asset
+  artifactKey: Guid(616e950c1ee98244dac5e4972352c6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ιστορία.asset using Guid(616e950c1ee98244dac5e4972352c6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0069f53e476a30abf4fe5ce6ab5b548e') in 0.004012 seconds
+  Import took 0.006684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027153 seconds.
+  path: Assets/Cards/Ισχυρός.asset
+  artifactKey: Guid(b392cc2dcb5d62f469fec878c9a1cc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ισχυρός.asset using Guid(b392cc2dcb5d62f469fec878c9a1cc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cd6564a43669d2792c3f1210c3f1c2') in 0.003804 seconds
+  Import took 0.006463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028757 seconds.
+  path: Assets/Cards/Κάβα.asset
+  artifactKey: Guid(f92c8119fc5ab40419ea6670b297c02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάβα.asset using Guid(f92c8119fc5ab40419ea6670b297c02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17840ade7a131b6a5928a80840fdcdd6') in 0.003908 seconds
+  Import took 0.006570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028349 seconds.
+  path: Assets/Cards/Κάβουρας.asset
+  artifactKey: Guid(38cc47ceebb744e43b91b1ac6b4f4670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάβουρας.asset using Guid(38cc47ceebb744e43b91b1ac6b4f4670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe08ac299cf6f202fb68fc4baad5fe42') in 0.003966 seconds
+  Import took 0.006916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024174 seconds.
+  path: Assets/Cards/Κάδος.asset
+  artifactKey: Guid(3a27406c6d4b7eb48bbc99d97bc28f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάδος.asset using Guid(3a27406c6d4b7eb48bbc99d97bc28f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173f7b7b326042544710f9e738aa78d0') in 0.003879 seconds
+  Import took 0.006561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028242 seconds.
+  path: Assets/Cards/Κάιρο.asset
+  artifactKey: Guid(17856bec3529aa2418f64da770a36c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάιρο.asset using Guid(17856bec3529aa2418f64da770a36c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33afc5fa4930275247f3bb47bf5aa4c8') in 0.003941 seconds
+  Import took 0.006519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025108 seconds.
+  path: Assets/Cards/Κάκτος.asset
+  artifactKey: Guid(96b565353a26357408802c51b4afea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάκτος.asset using Guid(96b565353a26357408802c51b4afea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea60fe090856a67f0e4a464d18bcbc6') in 0.003808 seconds
+  Import took 0.006438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028300 seconds.
+  path: Assets/Cards/Κάλτσα.asset
+  artifactKey: Guid(c6e4bd6bf2defdc48b6ef2114a28367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάλτσα.asset using Guid(c6e4bd6bf2defdc48b6ef2114a28367d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ac6b4865f6d6d9b111ef08ca13b326') in 0.003872 seconds
+  Import took 0.006563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025193 seconds.
+  path: Assets/Cards/Κάμερα.asset
+  artifactKey: Guid(47e10de3c08ea6746ab2e61ce00113b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάμερα.asset using Guid(47e10de3c08ea6746ab2e61ce00113b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c6398afaece3d24f1e1c1436c4198c') in 0.003797 seconds
+  Import took 0.006514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025162 seconds.
+  path: Assets/Cards/Κάρι.asset
+  artifactKey: Guid(f91795023c6ccf648886249abbc8c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάρι.asset using Guid(f91795023c6ccf648886249abbc8c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a39562b00bd8aebceba85629587aa12') in 0.003795 seconds
+  Import took 0.006459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034748 seconds.
+  path: Assets/Cards/Κάρο.asset
+  artifactKey: Guid(248a18595b113f747ba19754ac53a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάρο.asset using Guid(248a18595b113f747ba19754ac53a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ade285f44220fb9accfe7fea17ba73') in 0.003760 seconds
+  Import took 0.006330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025876 seconds.
+  path: Assets/Cards/Κάστορας.asset
+  artifactKey: Guid(030c6c35ed3654f4ca6c264730a4476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Κάστορας.asset using Guid(030c6c35ed3654f4ca6c264730a4476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9139a75172b0f691d3c2640a866064') in 0.003788 seconds
+  Import took 0.006389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.235041 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5015eff8b0bebbbf30b692e10f3491f8') in 0.004054 seconds
+  Import took 0.006946 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
